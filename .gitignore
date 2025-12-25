@@ -1,0 +1,34 @@
+# ===========================================
+# USER-SPECIFIC CONTENT (always ignored)
+# ===========================================
+
+# Session history
+context/sessions/*
+!context/sessions/CLAUDE.md
+
+# Uploaded documents (pitch decks, strategy docs, etc.)
+context/uploads/*
+!context/uploads/.gitkeep
+
+# Generated work products (one-pagers, roadmaps, OKRs, etc.)
+outputs/*
+!outputs/.gitkeep
+
+# Filled profiles (contain company/product secrets)
+context/company-profile.md
+context/user-profile.md
+context/product-profile.md
+
+# ===========================================
+# SYSTEM FILES
+# ===========================================
+
+# macOS
+.DS_Store
+
+# IDE and editors
+.vscode/
+.idea/
+.obsidian/
+*.swp
+*.swo
