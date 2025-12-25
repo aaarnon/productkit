@@ -9,14 +9,13 @@ Your AI product coach for strategy, discovery, roadmapping, and alignment.
 ## Quick Start
 
 1. Clone this repo
-2. Set up your profiles:
-   ```bash
-   cd context
-   cp company-profile.template.md company-profile.md
-   cp user-profile.template.md user-profile.md
-   cp product-profile.template.md product-profile.md
-   ```
-3. Open in Claude Code and describe your product challenge
+2. Open in Claude Code
+3. Start chatting — the Orchestrator will guide you
+
+On your first message, the Orchestrator will:
+- Ask about your role and experience (to set the right tone)
+- Help you build a company profile (essential for relevant advice)
+- Then dive into your question
 
 Example prompts:
 - "I need to prioritize my backlog but everything feels important"

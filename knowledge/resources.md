@@ -22,6 +22,7 @@ Both **agents** and **skills** learn from these resources via folder-based disco
 | [Product Positioning](https://www.aprildunford.com/post/a-product-positioning-exercise) → `strategy/product-positioning-april-dunford.md` | 5-step framework, competitive alternatives, market frame | April Dunford | Strategy |
 | `strategy/company-to-product-strategy-notes.md` | Investment thesis → Strategic intents → Product strategy | Arnon | Strategy, Vision |
 | `strategy/product-strategy-one-pager-template.md` | 7 sections: Problem, Vision, Game, Narrative, How We Win, Pillars, Risks | Arnon | Strategy, Alignment |
+| [Product Bundling](https://a16z.com/when-how-should-you-bundle-your-products/) → `strategy/product-bundling-a16z.md` | 3 gut-checks, attach rate math, segment strategies | a16z | Strategy, Roadmap |
 
 ---
 
@@ -97,6 +98,7 @@ Both **agents** and **skills** learn from these resources via folder-based disco
 | `alignment/product-alignment-document-template.md`                                                                                                                                                                | 3 phases: opportunity → solution → outcome                 | Arnon          | Alignment, Roadmap      |
 | [Break Frameworks](https://www.antmurphy.me/newsletter/dont-follow-frameworks-break-them) → `alignment/break-frameworks-ant-murphy.md`                                                                            | Lattice approach, adaptation signals, framework maturity   | Ant Murphy     | All agents, All skills  |
 | [Great One Pagers](https://publish.obsidian.md/cutlefish/Great+One+Pagers) → `alignment/great-one-pagers-john-cutler.md`                                                                                          | Bet framing, 40 questions, titles vs missions, scope       | John Cutler    | Alignment, Roadmap      |
+| [PM is Business Management](https://swkhan.medium.com/product-management-is-business-management-why-does-everyone-forget-that-85f777da30e1) → `alignment/product-management-is-business-management.md`            | PM ≠ delivery, 4 principles, business focus                | Saeed Khan     | Orchestrator            |
 
 ---
 
