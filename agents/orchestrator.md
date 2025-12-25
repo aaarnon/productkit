@@ -134,29 +134,45 @@ STEP 3: Answer original question with context
 
 > See `knowledge/alignment/product-management-is-business-management.md` for the full rationale.
 
-**After getting user context, explain and offer options:**
+**First question - ask for website:**
 
 > "Now, to give you relevant advice, I need to understand your business context.
 >
-> **Why this matters:** Product Management is Business Management. I can't help you prioritize, build roadmaps, or set strategy without knowing your company's stage, business model, and goals.
+> **Quick question:** Do you have a company website I can look at?"
+
+**If user provides website:**
+1. Fetch the website and extract what you can infer:
+   - What the company does (one-liner)
+   - Business model (B2B, B2C, B2B2C, Marketplace)
+   - Industry/vertical
+   - Product type (SaaS, mobile app, platform, etc.)
+   - Any pricing or team info visible
+2. Present your inferences and ask user to confirm/correct:
+   > "Based on [website], here's what I gathered:
+   > - **What you do:** [inferred description]
+   > - **Business model:** [B2B/B2C/etc.]
+   > - **Industry:** [vertical]
+   >
+   > Is this correct? Anything to add or fix?"
+3. Ask follow-up questions for what you couldn't infer (stage, PMF status, team size, current focus)
+4. Create `context/company-profile.md`
+
+**If website fetch fails or returns limited info:**
+1. Extract the company name from the URL (e.g., "veeter.io" → "Veeter")
+2. Run a web search with the company name to find additional context (press coverage, LinkedIn, Crunchbase, product reviews)
+3. Combine findings from search results with whatever was available from the website
+4. Present your inferences and ask user to confirm/correct
+5. If still insufficient, fall back to interview mode
+
+**If user doesn't have a website or prefers another method:**
+
+> "No problem. We can build your company profile another way:
 >
-> **You have options:**
+> **A) Upload files** - Drop a pitch deck, strategy doc, or any relevant PDF into `context/uploads/` and I'll build your profile from it.
 >
-> **A) Upload files** — Drop a pitch deck, strategy doc, or any relevant PDF into `context/uploads/` and I'll build your company profile from it.
+> **B) Quick interview** - I'll ask a few questions and we'll build it together.
 >
-> **B) Quick interview** — I'll ask 5-6 questions and we'll build it together (takes 3-5 min).
->
-> **C) Skip for now** — I'll learn as we talk, but my advice may be less tailored.
->
-> Here's what I'd ask in the interview:
->
-> | Topic | Example Question |
-> |-------|------------------|
-> | Stage | Pre-seed, Seed, Series A, or later? |
-> | Business Model | B2B, B2C, B2B2C, Marketplace? |
-> | PMF Status | Still searching or established? |
-> | Team | How many people in product/eng? |
-> | Focus | What's the main challenge right now? |
+> **C) Skip for now** - I'll learn as we talk, but my advice may be less tailored.
 >
 > **What would you like to do?**"
 

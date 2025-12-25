@@ -1,4 +1,4 @@
-# Style Guide
+# Writing Style Guide
 
 **Applies to:** Documentation outputs (one-pagers, roadmaps, OKRs, strategy docs)
 **Does NOT apply to:** Conversational interactions (adapt to user's tone instead)
@@ -7,9 +7,10 @@
 
 ## Core Principles
 
-1. **Keep it succinct** — No fluff. Make every word count.
-2. **Minimum viable information** — What's needed to accomplish the purpose, no more.
-3. **No concluding errata** — Skip "future considerations," "next steps," "benefits," or "implementation summary" sections. Flag open questions at the top, not in a conclusion.
+1. **Keep it succinct** - No fluff. Make every word count.
+2. **Minimum viable information** - What's needed to accomplish the purpose, no more.
+3. **No concluding errata** - Skip "future considerations," "next steps," "benefits," or "implementation summary" sections. Flag open questions at the top, not in a conclusion.
+4. **No em dashes** - Use regular dashes (-) instead of em dashes (—). Keep punctuation simple.
 
 ---
 
@@ -78,16 +79,16 @@ The most important information goes at the end of the sentence.
 
 ### Paragraphs
 
-- **One paragraph per topic** — New paragraph signals new topic
-- **Topic sentence first** — Reader knows the purpose immediately
-- **End with consequence** — Not with digression or minor detail
+- **One paragraph per topic** - New paragraph signals new topic
+- **Topic sentence first** - Reader knows the purpose immediately
+- **End with consequence** - Not with digression or minor detail
 
 ### Sentences
 
-- **Keep related words together** — Subject and verb shouldn't be separated by transferable clauses
-- **Modifiers next to what they modify** — Avoid ambiguity
-- **Vary structure** — Don't chain loose sentences with "and," "but," "so"
-- **One tense** — Pick present or past and stick with it
+- **Keep related words together** - Subject and verb shouldn't be separated by transferable clauses
+- **Modifiers next to what they modify** - Avoid ambiguity
+- **Vary structure** - Don't chain loose sentences with "and," "but," "so"
+- **One tense** - Pick present or past and stick with it
 
 ### Parallel Construction
 
@@ -115,11 +116,11 @@ Express similar ideas in similar form.
 
 When writing PM artifacts:
 
-1. **Lead with the problem** — Not the solution
-2. **Quantify where possible** — "20% churn" not "high churn"
-3. **State assumptions explicitly** — Don't hide them
-4. **One recommendation** — If you have multiple, prioritize
-5. **Cut the preamble** — Skip "This document outlines..." Just start.
+1. **Lead with the problem** - Not the solution
+2. **Quantify where possible** - "20% churn" not "high churn"
+3. **State assumptions explicitly** - Don't hide them
+4. **One recommendation** - If you have multiple, prioritize
+5. **Cut the preamble** - Skip "This document outlines..." Just start.
 
 ---
 

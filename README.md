@@ -6,55 +6,29 @@ Your AI product coach for strategy, discovery, roadmapping, and alignment.
 
 ---
 
-## Why Not Just Use ChatGPT?
-
-ChatGPT gives generic PM advice. PM-Copilot is different:
-
-| ChatGPT | PM-Copilot |
-|---------|------------|
-| Generic advice, no memory | **Remembers your company context** across sessions |
-| You guide the conversation | **Orchestrator guides you** toward deliverables |
-| No frameworks built-in | **55+ curated articles** from Teresa Torres, Gibson Biddle, John Cutler, etc. |
-| One-size-fits-all tone | **Adapts to your experience** (founder vs senior PM vs CPO) |
-| Chat ends, context lost | **Session persistence** — pick up where you left off |
-| You decide what to ask | **Specialized agents** route you to the right domain |
-
-PM-Copilot is a **system**, not a chat. Think of it like [SpecKit](https://github.com/CodingBull-dev/speckit) or [BMAD](https://github.com/bmadcode/BMAD-METHOD) for software engineers — but for Product Managers.
-
-Product work is messy. Vision, strategy, discovery, roadmap, metrics — they're all connected, but it's hard to keep them coherent. PM-Copilot brings structure to the messy middle, challenges your assumptions, and helps you connect the dots into concrete deliverables.
-
----
-
 ## Quick Start
 
-### Option 1: Clone via AI coding agent
+### Option 1: Have your AI coding agent clone it into your project
 
-Open your AI coding agent (Claude Code, Cursor, Gemini CLI, Codex, etc.) and tell it:
+Create a new directory for your project and open it in your AI coding agent (Claude Code, Cursor, Gemini CLI, Codex, etc.).
+
+Tell your AI coding agent:
 
 ```
-Clone https://github.com/aaarnon/pm-copilot into a new directory called "pm-copilot/"
+Let's clone
+
+https://github.com/aaarnon/pm-copilot
+
+into a new top-level directory in this project called "pm-copilot/"
 ```
 
-### Option 2: Download ZIP
+### Option 2: Download as ZIP and drag into your project
 
-1. [Download ZIP from GitHub](https://github.com/aaarnon/pm-copilot/archive/refs/heads/main.zip)
-2. Extract into your project directory
-3. Open the folder in your AI coding agent
-
-### Option 3: Git clone
-
-```bash
-git clone https://github.com/aaarnon/pm-copilot.git
-cd pm-copilot
-```
-
-Then open in your AI coding agent.
+[Download the ZIP from GitHub](https://github.com/aaarnon/pm-copilot/archive/refs/heads/main.zip) and drag the `pm-copilot` folder into your project directory.
 
 ---
 
-### Start chatting
-
-Once integrated, reference the prompts with `@pm-copilot/` mentions or just start chatting.
+Once integrated, reference the files with `@pm-copilot/` mentions or just start chatting.
 
 On your first message, the Orchestrator will:
 - Ask about your role and experience (to set the right tone)
@@ -72,7 +46,7 @@ On your first message, the Orchestrator will:
 
 ### Focused on PM Deliverables
 
-Great product managers ship deliverables, not just opinions. Strategy docs, roadmaps, one-pagers, OKRs — these artifacts align teams, secure buy-in, and drive execution.
+Great product managers ship deliverables, not just opinions. Strategy docs, roadmaps, one-pagers, OKRs - these artifacts align teams, secure buy-in, and drive execution.
 
 PM-Copilot helps you produce these deliverables. Every conversation aims toward a concrete output.
 
@@ -100,7 +74,7 @@ YOU: "I need to prioritize my backlog but everything feels important"
 ORCHESTRATOR: "What's your role and experience level?"
 YOU: "Senior PM, 5 years"
 
-ORCHESTRATOR: "Got it. Quick context — what stage is your company?
+ORCHESTRATOR: "Got it. Quick context - what stage is your company?
               And what deliverable do you want to walk away with today?"
 YOU: "Series A, post-PMF. I need a prioritized roadmap for Q1."
 
@@ -115,7 +89,7 @@ YOU: "We're trying to increase activation and reduce churn"
 STRATEGY: "Those are two different bets. Which matters more right now?
           Gibson Biddle would say: if you can't prioritize, your
           strategy isn't sharp enough."
-YOU: "Activation — we're leaking users in onboarding"
+YOU: "Activation - we're leaking users in onboarding"
 
 STRATEGY: "Clear. I'll hand you to Roadmap agent with this context."
 
@@ -127,6 +101,8 @@ ROADMAP: "Based on activation focus, let's build your Q1 roadmap.
 ```
 
 Agents suggest handoffs when appropriate and always aim toward a deliverable.
+
+This isn't "ChatGPT for PMs." It's a **system** - like [SpecKit](https://github.com/CodingBull-dev/speckit) or [BMAD](https://github.com/bmadcode/BMAD-METHOD) for engineers, but for Product Managers. It remembers your context, challenges your thinking, and brings structure to the messy middle where vision, strategy, and execution need to connect.
 
 ---
 
@@ -161,10 +137,10 @@ pm-copilot/
 ## Privacy
 
 Your data stays local. The `.gitignore` excludes all user-specific content:
-- `context/*.md` — Your filled profiles (templates are shared)
-- `context/sessions/*` — Your conversation history
-- `context/uploads/*` — Your uploaded documents
-- `outputs/*` — Your generated work products
+- `context/*.md` - Your filled profiles (templates are shared)
+- `context/sessions/*` - Your conversation history
+- `context/uploads/*` - Your uploaded documents
+- `outputs/*` - Your generated work products
 
 System files (agents, skills, knowledge) are shared.
 
