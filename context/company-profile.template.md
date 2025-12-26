@@ -99,5 +99,20 @@ _Additional context captured during conversations:_
 
 ---
 
+## Learnings
+
+_Meta-patterns and lessons learned while working with this company:_
+
+**What works:**
+- [Approaches that work well for this company]
+
+**What doesn't work:**
+- [Failed approaches - "We tried X, it didn't work because Y"]
+
+**Patterns observed:**
+- [e.g., "This company struggles with prioritization", "Stakeholder buy-in is the bottleneck", "Engineering capacity is the constraint"]
+
+---
+
 **Last Updated:** [Date]
 **Confidence:** [Low - just started / Medium - most fields filled / High - verified and complete]

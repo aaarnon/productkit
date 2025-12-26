@@ -8,9 +8,49 @@
 ## Core Principles
 
 1. **Keep it succinct** - No fluff. Make every word count.
-2. **Minimum viable information** - What's needed to accomplish the purpose, no more.
-3. **No concluding errata** - Skip "future considerations," "next steps," "benefits," or "implementation summary" sections. Flag open questions at the top, not in a conclusion.
-4. **No em dashes** - Use regular dashes (-) instead of em dashes (—). Keep punctuation simple.
+2. **Minimum viable document** - What's needed to accomplish the purpose, no more. Less text is more.
+3. **Executive-level focus** - Write for management discussions. If a section doesn't help make a decision, cut it.
+4. **No concluding errata** - Skip "future considerations," "next steps," "benefits," or "implementation summary" sections. Flag open questions at the top, not in a conclusion.
+5. **No em dashes** - Em dashes sound like AI-written text. You should sound like a human. Keep punctuation simple.
+
+---
+
+## Designing Documents
+
+### Sections to Skip
+
+Don't add sections you don't need right now. Common offenders:
+
+| Section                      | Why to skip                             |
+| ---------------------------- | --------------------------------------- |
+| Stakeholder Matrix           | Only if alignment is the actual problem |
+| Success Metrics (10+)        | 1-3 metrics max. More = no focus        |
+| Background/Context (2 pages) | 2-3 sentences. They know the business   |
+
+**Test:** Would a busy exec skip this section? Then cut it.
+
+### Sections to Consider
+
+**FAQ (Recommended)**
+
+End documents with a short FAQ that anticipates meeting questions.
+
+**Why:** Keeps main narrative clean. Shows you've thought through objections. Saves meeting time.
+
+**Rules:**
+- 3-5 questions max
+- Only questions that WILL come up
+- Short answers (2-3 sentences)
+
+**Good FAQ questions:**
+- "Why not do X instead?" (addresses alternatives)
+- "What if Y happens?" (addresses key risk)
+- "How does this affect Z team?" (addresses dependencies)
+
+**Bad FAQ questions:**
+- Generic questions nobody would ask
+- Questions already answered in main doc
+- More than 5 questions (you're padding)
 
 ---
 

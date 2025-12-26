@@ -23,6 +23,9 @@ Both **agents** and **skills** learn from these resources via folder-based disco
 | `strategy/company-to-product-strategy-notes.md` | Investment thesis → Strategic intents → Product strategy | Arnon | Strategy, Vision |
 | `strategy/product-strategy-one-pager-template.md` | 7 sections: Problem, Vision, Game, Narrative, How We Win, Pillars, Risks | Arnon | Strategy, Alignment |
 | [Product Bundling](https://a16z.com/when-how-should-you-bundle-your-products/) → `strategy/product-bundling-a16z.md` | 3 gut-checks, attach rate math, segment strategies | a16z | Strategy, Roadmap |
+| [B2B vs B2C Strategy](https://herbig.co/b2b-vs-b2c-product-strategy/) → `strategy/b2b-vs-b2c-product-strategy-herbig.md` | Hybrid models, course correction, org impact | Tim Herbig | Strategy |
+| [Product Strategy Patterns](https://herbig.co/product-strategy-patterns/) → `strategy/product-strategy-patterns-herbig.md` | 3 patterns: Strategic Narrative, Playing Field, Winning Moves | Tim Herbig | Strategy |
+| [Product Strategy Choices](https://herbig.co/product-strategy-choices/) → `strategy/product-strategy-choices-herbig.md` | Explicit vs implicit choices, strategy-to-OKR translation | Tim Herbig | Strategy, Metrics |
 
 ---
 
@@ -80,6 +83,7 @@ Both **agents** and **skills** learn from these resources via folder-based disco
 | [High Velocity Decisions](https://www.hustlebadger.com/what-do-product-teams-do/high-velocity-decision-making/) → `prioritization/high-velocity-decision-making.md` | Type 1/Type 2, 80/20 info, Benefits-Costs-Mitigations | Ed Biden | Prioritization |
 | [Can Do vs Should Do](https://cutlefish.substack.com/p/tbm-1652-can-do-vs-should-do) → `prioritization/can-do-vs-should-do-cutler.md` | 9-box matrix, unblocking Box 1, feasibility vs value | John Cutler | Prioritization, Strategy |
 | `prioritization/prioritization-strategy.md` | Priority should be obvious, DHM, work types by stage | Arnon | Prioritization, Strategy |
+| `prioritization/rice-framework-critique.md` | Why RICE breaks down, story beats score, binary risk question | Arnon | Prioritization |
 
 ---
 

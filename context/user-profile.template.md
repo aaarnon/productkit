@@ -77,5 +77,23 @@ _Additional context captured during conversations:_
 
 ---
 
+## Learnings
+
+_Meta-patterns about how this user works and what they prefer:_
+
+**Communication preferences observed:**
+- [e.g., "Prefers direct feedback", "Likes visual diagrams", "Wants rationale explained"]
+
+**What resonates:**
+- [Frameworks, approaches, or styles that work well with this user]
+
+**What doesn't land:**
+- [e.g., "Too much theory - wants practical examples", "Gets frustrated with long explanations"]
+
+**Patterns observed:**
+- [e.g., "Tends to jump to solutions before defining problems", "Strong on execution, needs help with strategy"]
+
+---
+
 **Last Updated:** [Date]
 **Confidence:** [Low - just started / Medium - most fields filled / High - verified and complete]

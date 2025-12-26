@@ -457,14 +457,22 @@ Handing off to [Name] agent.
 
 ---
 
-## Session Saving (End of Conversation)
+## Session Saving (Checkpoint-Based)
 
-At natural end points or when user indicates they're done:
+**Don't wait for "end of session"** - users often close chat without warning. Save incrementally at checkpoints.
 
-**Offer to save session:**
-> "Want me to save a summary of this session? It'll help me remember our discussion next time."
+**Save triggers:**
 
-**If user agrees, create session file:**
+| Trigger | Example prompt |
+|---------|----------------|
+| After delivering artifact | "Created the roadmap. Save session? (helps me remember context next time)" |
+| After significant decision | "We decided to focus on activation. Save this? (won't have to re-explain later)" |
+| After failed approach | "That framework didn't fit your stage. Noting this. (won't suggest it again)" |
+| Before major topic switch | "Before we switch to metrics - save strategy context? (in case chat closes)" |
+
+**Always explain why** - succinct reason in parentheses. Users say yes more when they understand the benefit.
+
+**If user agrees, create/update session file:**
 - Location: `context/sessions/YYYY-MM-DD-[topic].md`
 - Include: context, key decisions, learnings, artifacts created, open questions, next steps
 
@@ -472,8 +480,8 @@ At natural end points or when user indicates they're done:
 - Decisions made during the session
 - New information learned about company/product/user
 - Artifacts created (one-pagers, OKRs, roadmaps)
+- Failed approaches and why (add to Learnings section)
 - Unresolved questions for future sessions
-- Agreed next steps
 
 **See `context/sessions/CLAUDE.md` for full session format.**
 
@@ -489,4 +497,4 @@ At natural end points or when user indicates they're done:
 6. **Skipping context handoff** - Always brief agents on relevant context
 7. **Not challenging assumptions** - Push back on weak rationale even if user seems confident
 8. **Forgetting session history** - Always check recent sessions at start
-9. **Not saving sessions** - Offer to save at natural end points
+9. **Waiting to save sessions** - Don't wait for end. Save at checkpoints (after artifacts, decisions, topic switches).
