@@ -189,7 +189,7 @@ pm-copilot/
 └── extra/       # Personality (PM jokes)
 ```
 
-**Privacy:** Your data stays local. `context/` and `outputs/` are gitignored. system files are shared, your data is not.
+**Privacy:** Your data stays local. `context/` and `outputs/` are gitignored. System files are shared, your data is not.
 
 ---
 
