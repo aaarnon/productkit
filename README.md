@@ -6,7 +6,7 @@ The SpecKit for product managers. Context-aware AI guidance for strategy, discov
 
 ---
 
-## The Problem
+## Overview
 
 Software engineers have [SpecKit](https://github.com/AviCraworker/speckit), [BMAD](https://github.com/bmadcode/BMAD-METHOD), or [Claude Superpowers](https://github.com/aaronsb/claude-superpowers) for context-engineered development. Product managers? Unstructured chats with LLMs that lead to generic advice.
 
