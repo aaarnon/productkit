@@ -1,6 +1,6 @@
 # PM-Copilot
 
-The SpecKit for product managers. Context-aware AI guidance for strategy, discovery, roadmapping, and stakeholder alignment. 
+The "SpecKit" for product management. PM-Copilot is a multi-agent system that understands your product context before guiding you through strategy, discovery, roadmapping, and prioritization. 
 
 **For:** Engineers, PMs, founders, or any operator working in the product management context.
 
