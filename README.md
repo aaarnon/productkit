@@ -1,18 +1,29 @@
 # PM-Copilot
 
-Your AI product coach for strategy, discovery, roadmapping, and alignment.
+AI-powered product management coaching system for strategy, discovery, roadmapping, and stakeholder alignment.
 
-**For:** Solo founders, PMs, CPOs, consultants, and anyone doing product work.
+**For:** PMs, founders, engineers, or any operator working in the product management context.
+
+---
+
+## The Problem
+
+Generic AI gives generic PM advice. Ask ChatGPT "how should I prioritize my backlog?" and you'll get a textbook answer about RICE scoring - regardless of whether you're pre-PMF or Series C, B2B or B2C, a team of 3 or 300.
+
+Product management is business management. The right approach depends entirely on context: company stage, business model, team structure, current challenges. Without that context, advice is noise.
+
+PM-Copilot solves this by:
+1. **Building context first** - Company stage, business model, user profile
+2. **Routing to specialists** - Domain-expert agents for strategy, discovery, metrics, etc.
+3. **Producing deliverables** - Not just advice, but actual artifacts: roadmaps, OKRs, one-pagers, strategy docs
 
 ---
 
 ## Quick Start
 
-### Option 1: Have your AI coding agent clone it into your project
+### Option 1: Clone via AI coding agent
 
-Create a new directory for your project and open it in your AI coding agent (Claude Code, Cursor, Gemini CLI, Codex, etc.).
-
-Tell your AI coding agent:
+In your AI coding agent (Claude Code, Cursor, Codex, etc.):
 
 ```
 Let's clone
@@ -22,51 +33,98 @@ https://github.com/aaarnon/pm-copilot
 into a new top-level directory in this project called "pm-copilot/"
 ```
 
-### Option 2: Download as ZIP and drag into your project
+### Option 2: Download manually
 
-[Download the ZIP from GitHub](https://github.com/aaarnon/pm-copilot/archive/refs/heads/main.zip) and drag the `pm-copilot` folder into your project directory.
+[Download ZIP from GitHub](https://github.com/aaarnon/pm-copilot/archive/refs/heads/main.zip) and extract to your project.
 
----
+### Verify
 
-Once integrated, reference the files with `@pm-copilot/` mentions or just start chatting.
-
-On your first message, the Orchestrator will:
-- Ask about your role and experience (to set the right tone)
-- Help you build a company profile (essential for relevant advice)
-- Then dive into your question
-
-**Example prompts:**
-- "I need to prioritize my backlog but everything feels important"
-- "Help me define our product strategy"
-- "We're struggling to align stakeholders on our roadmap"
+Reference files with `@pm-copilot/` mentions or start chatting. The Orchestrator will introduce itself.
 
 ---
 
 ## How It Works
 
-### Focused on PM Deliverables
+```
+┌────────────────────────────────────────────────────────────────┐
+│                                                                │
+│   User Question                                                │
+│        ↓                                                       │
+│   ┌─────────────┐    checks    ┌─────────────┐                 │
+│   │ Orchestrator│ ──────────→  │   Context   │                 │
+│   └─────────────┘              │  (profiles) │                 │
+│        │                       └─────────────┘                 │
+│        │ routes to specialist                                  │
+│        ↓                                                       │
+│   ┌─────────────┐    uses     ┌─────────────┐                  │
+│   │   Agent     │ ──────────→ │  Knowledge  │                  │
+│   │ (Strategy,  │             │  (articles) │                  │
+│   │  Discovery, │             └─────────────┘                  │
+│   │  Metrics...)│                                              │
+│   └─────────────┘                                              │
+│        │                                                       │
+│        │ invokes                                               │
+│        ↓                                                       │
+│   ┌─────────────┐                                              │
+│   │   Skills    │ ──────────→  Deliverable                     │
+│   │ (OKR,       │              (roadmap, one-pager, etc.)      │
+│   │  prioritize)│                                              │
+│   └─────────────┘                                              │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+```
 
-Great product managers ship deliverables, not just opinions. Strategy docs, roadmaps, one-pagers, OKRs - these artifacts align teams, secure buy-in, and drive execution.
+**Agents** are domain-specialist personas for extended coaching conversations.
 
-PM-Copilot helps you produce these deliverables. Every conversation aims toward a concrete output.
+**Skills** are discrete tools that produce specific outputs.
 
-### Agents & Skills
+**Knowledge** is the source material - frameworks from John Cutler, Teresa Torres, Tim Herbig, April Dunford, Brian Balfour, and others.
 
-**Agents** = Domain coaches for extended conversations
+---
 
-**Skills** = Tools that produce specific outputs
+## Agent Handoffs
 
-| Agent | What It Does |
-|-------|-------------|
-| **Orchestrator** | Routes to agents, adapts to your expertise |
-| **Vision** | Long-term purpose (3-5+ years) |
-| **Strategy** | How to win, tactical choices |
-| **Discovery** | Problem validation, opportunity mapping |
-| **Roadmap** | Initiative planning, sequencing |
-| **Metrics** | Success measurement, OKRs |
-| **Stakeholder** | Coordination, alignment, RACI |
+### Workflow
 
-### Example Interaction
+1. **Start a conversation** - Describe your product challenge
+2. **Build context** (first time) - Orchestrator asks about your role and company
+3. **Get routed** - Orchestrator hands off to the right specialist agent
+4. **Work with the agent** - Iterative conversation toward a deliverable
+5. **Produce output** - Agent invokes skills to generate artifacts
+6. **Save session** (optional) - Preserve context for future conversations
+
+### Routing
+
+Agents hand off to each other based on domain. Orchestrator coordinates all routing.
+
+```mermaid
+flowchart TB
+    U((User)) <--> O{Orchestrator}
+    O <-.->|context| C[(Context)]
+
+    O <--> V[Vision]
+    O <--> S[Strategy]
+    O <--> D[Discovery]
+    O <--> R[Roadmap]
+    O <--> M[Metrics]
+    O <--> ST[Stakeholder]
+
+    V <-.-> S
+    S <-.-> D
+    S <-.-> R
+    D <-.-> R
+    R <-.-> M
+    M <-.-> ST
+
+    S & D & R & M <-->|skills| SK[[Skills]]
+    SK --> Out>Deliverable]
+    Out --- E1[Roadmap]
+    Out --- E2[OKRs]
+    Out --- E3[One-pager]
+    Out --- E4[Strategy doc]
+```
+
+### Example: Orchestrator → Strategy → Roadmap
 
 ```
 YOU: "I need to prioritize my backlog but everything feels important"
@@ -74,49 +132,29 @@ YOU: "I need to prioritize my backlog but everything feels important"
 ORCHESTRATOR: "What's your role and experience level?"
 YOU: "Senior PM, 5 years"
 
-ORCHESTRATOR: "Got it. Quick context - what stage is your company?
-              And what deliverable do you want to walk away with today?"
+ORCHESTRATOR: "Got it. What stage is your company?
+              And what deliverable do you want to walk away with?"
 YOU: "Series A, post-PMF. I need a prioritized roadmap for Q1."
 
 ORCHESTRATOR: "Sounds like you're in execution mode. Let me hand you
-              to Strategy to check if priorities should be obvious
+              to Strategy agent to check if priorities should be obvious
               from your strategy. If not, we'll fix that first."
 
 STRATEGY: "What's your current product strategy? If prioritization
           feels hard, the strategy might be unclear."
 YOU: "We're trying to increase activation and reduce churn"
 
-STRATEGY: "Those are two different bets. Which matters more right now?
-          Gibson Biddle would say: if you can't prioritize, your
-          strategy isn't sharp enough."
-YOU: "Activation - we're leaking users in onboarding"
+STRATEGY: "Those are two different bets. Which matters more right now?"
+YOU: "Activation -we're leaking users in onboarding"
 
 STRATEGY: "Clear. I'll hand you to Roadmap agent with this context."
 
 ROADMAP: "Based on activation focus, let's build your Q1 roadmap.
-         I'll use the Now-Next-Later format. What are your top 3
+         I'll use Now-Next-Later format. What are your top 3
          activation problems?"
 
 → Delivers: Prioritized Q1 roadmap document
 ```
-
-Agents suggest handoffs when appropriate and always aim toward a deliverable.
-
-This isn't "ChatGPT for PMs." It's a **system** - like [SpecKit](https://github.com/CodingBull-dev/speckit) or [BMAD](https://github.com/bmadcode/BMAD-METHOD) for engineers, but for Product Managers. It remembers your context, challenges your thinking, and brings structure to the messy middle where vision, strategy, and execution need to connect.
-
----
-
-## Key Frameworks
-
-| Domain | Frameworks |
-|--------|-----------|
-| Strategy | DHM, Four Fits, Four Types of Work |
-| Discovery | OST, 4 Risks, Confidence Scale |
-| Roadmap | 6 Narrative Modes, Now-Next-Later |
-| Metrics | AARRR, Impact Models, OKRs |
-| Alignment | Product Operating Model, Red/Blue Phases |
-
-See `knowledge/resources.md` for sources (Gibson Biddle, Teresa Torres, Brian Balfour, April Dunford, John Cutler, and more).
 
 ---
 
@@ -124,35 +162,41 @@ See `knowledge/resources.md` for sources (Gibson Biddle, Teresa Torres, Brian Ba
 
 ```
 pm-copilot/
-├── agents/        # 7 agent definitions
-├── skills/        # 11 utility skills
-├── knowledge/     # 55+ framework articles
-├── context/       # Your profiles, sessions, uploads
-├── outputs/       # Generated work (one-pagers, roadmaps, OKRs)
-└── extra/         # Personality (PM jokes)
+├── agents/      # Specialist agents (orchestrator, strategy, discovery, etc.)
+├── skills/      # Output-producing tools (prioritization, okr-builder, etc.)
+├── knowledge/   # Source articles by domain (strategy, discovery, metrics, etc.)
+├── context/     # Your data - profiles, sessions, uploads (gitignored)
+├── outputs/     # Generated deliverables (gitignored)
+└── extra/       # Personality (PM jokes)
 ```
+
+**Privacy:** Your data stays local. `context/` and `outputs/` are gitignored. system files are shared, your data is not.
 
 ---
 
-## Privacy
+## Philosophy
 
-Your data stays local. The `.gitignore` excludes all user-specific content:
-- `context/*.md` - Your filled profiles (templates are shared)
-- `context/sessions/*` - Your conversation history
-- `context/uploads/*` - Your uploaded documents
-- `outputs/*` - Your generated work products
+**Context over generic advice**
+The same question deserves different answers at different company stages. Pre-PMF needs speed and learning. Post-PMF needs structure and alignment. PM-Copilot asks first, advises second.
 
-System files (agents, skills, knowledge) are shared.
+**Deliverables over opinions**
+Great PMs ship artifacts that align teams: roadmaps, OKRs, one-pagers, strategy docs. Every conversation should move toward something concrete.
+
+**Challenge over agreement**
+Weak thinking produces weak products. PM-Copilot pushes back on unclear strategy, unreasonable scope, and unvalidated assumptions. Honest feedback beats comfortable agreement.
+
+**Perspectives over prescriptions**
+The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PMs don't always agree. That's intentional - PM work is contextual, not formulaic.
 
 ---
 
 ## Contributing
 
 Contributions welcome:
-- Knowledge base articles
-- Framework refinements
+- Knowledge base articles (new frameworks, authors)
 - Agent behavior improvements
 - New utility skills
+- Bug fixes and refinements
 
 ---
 

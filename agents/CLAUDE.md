@@ -1,8 +1,41 @@
 # Agents
 
-## Format
+Agents are domain-specialist personas for extended coaching conversations. Each agent has deep expertise in one area of product work. Orchestrator is the entry point—it routes to the right specialist based on user needs.
 
-Each agent file: YAML frontmatter + markdown content.
+**Key rule:** Agents know only their neighbors, not all agents. Only Orchestrator knows everyone.
+
+---
+
+## Agent → Knowledge Mapping
+
+| Agent | Primary Knowledge Folders |
+|-------|---------------------------|
+| Orchestrator | `alignment/`, `prioritization/` |
+| Vision | `strategy/`, `alignment/` |
+| Strategy | `strategy/`, `prioritization/` |
+| Discovery | `discovery/` |
+| Roadmap | `roadmap/`, `alignment/` |
+| Metrics | `metrics/` |
+| Stakeholder | `alignment/` |
+
+→ See `knowledge/CLAUDE.md` for folder-based discovery and conflict handling.
+
+---
+
+## Handoff Protocol
+
+1. Read the target agent's file completely
+2. Announce the handoff to the user
+3. Adopt the agent's persona and expertise
+4. Stay in persona until work is complete or user needs a different agent
+
+Handoffs suggest, don't force—Orchestrator makes the final routing decision.
+
+---
+
+## File Format
+
+Each agent file uses YAML frontmatter + markdown content:
 
 ```yaml
 ---
@@ -20,23 +53,8 @@ description: What it does + when to use it. Include trigger terms.
 - Output Format
 - Common Pitfalls
 
-## Agent → Folder Mapping
+---
 
-| Agent | Primary Knowledge Folders |
-|-------|---------------------------|
-| Orchestrator | `alignment/`, `prioritization/` |
-| Vision | `strategy/`, `alignment/` |
-| Strategy | `strategy/`, `prioritization/` |
-| Discovery | `discovery/` |
-| Roadmap | `roadmap/`, `alignment/` |
-| Metrics | `metrics/` |
-| Stakeholder | `alignment/` |
+## When Sources Conflict
 
-→ See `knowledge/CLAUDE.md` for folder-based discovery and conflict handling.
-
-## Rules
-
-- Agents know only their neighbors, not all agents
-- Orchestrator is the only agent that knows all others
-- Handoffs suggest, don't force — Orchestrator decides
-- When sources conflict, use company context to select approach
+When sources disagree, use company context to select the right approach. See `knowledge/CLAUDE.md` for detailed conflict resolution.

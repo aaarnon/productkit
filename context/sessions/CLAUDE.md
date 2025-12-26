@@ -1,10 +1,8 @@
 # Sessions
 
-Auto-saved summaries from each conversation session.
+Session files enable multi-conversation memory. Claude reads recent sessions at conversation start to remember previous context, decisions, and open questions.
 
-## Purpose
-
-Enables multi-session persistence - Claude remembers previous conversations by reading recent session summaries.
+---
 
 ## File Naming
 
@@ -15,17 +13,15 @@ YYYY-MM-DD-[topic].md
 Examples:
 - `2025-12-25-roadmap-planning.md`
 - `2025-12-28-metrics-review.md`
-- `2025-01-05-discovery-interviews.md`
 
-## Session Summary Format
+---
 
-Each session file should capture:
+## Session Format
 
 ```markdown
 # Session: [Topic]
 
 **Date:** YYYY-MM-DD
-**Duration:** ~X minutes
 **Primary Agent:** [Which agent was mostly used]
 
 ## Context
@@ -36,17 +32,19 @@ Each session file should capture:
 - [Decision 2]
 
 ## Learnings About Company/Product
-- [New info learned that should inform future sessions]
+- [New info that should inform future sessions]
 
 ## Artifacts Created
-- [Any outputs: one-pagers, OKRs, roadmaps, etc.]
+- [Outputs: one-pagers, OKRs, roadmaps, etc.]
 
 ## Open Questions
 - [Unresolved items for future sessions]
 
-## Next Steps Discussed
+## Next Steps
 - [What user planned to do next]
 ```
+
+---
 
 ## Orchestrator Behavior
 
@@ -57,9 +55,10 @@ Each session file should capture:
 
 **End of session:**
 1. Offer to save session summary
-2. If user agrees, create session file
-3. Use descriptive topic name
+2. If user agrees, create session file with descriptive topic name
+
+---
 
 ## Retention
 
-Keep sessions indefinitely or archive old ones to `sessions/archive/` if folder gets large.
+Keep sessions indefinitely. Archive old ones to `sessions/archive/` if folder gets large.
