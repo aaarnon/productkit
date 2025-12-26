@@ -181,7 +181,7 @@ ROADMAP: "Based on activation focus, let's build your Q1 roadmap.
 
 ## Philosophy
 
-→Context over generic advice**
+**→Context over generic advice**
 The same question deserves different answers at different company stages. Pre-PMF needs speed and learning. Post-PMF needs structure and alignment. PM-Copilot asks first, advises second.
 
 **→ Deliverables over opinions**
