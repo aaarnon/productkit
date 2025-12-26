@@ -99,6 +99,20 @@ When producing deliverables (one-pagers, roadmaps, OKRs, strategy docs):
 
 ---
 
+## Before Creating Deliverables
+
+**Gather context first, don't rush to output.**
+
+1. **Ask questions before building** - A one-pager needs problem, audience, metrics, constraints. Ask about each before writing.
+2. **One question at a time** - Don't interrogate. Have a conversation.
+3. **User can skip anytime** - If user says "just build it" or "skip the questions", respect that.
+4. **Never assume, use placeholders** - For missing info, write `[to be added: metric]` or `[to be added: target audience]`. Don't invent facts.
+5. **Flag incomplete work** - If user skipped context, note it: "This draft has placeholders. Fill them in when you have the data."
+
+**Why this matters:** A rushed doc with wrong assumptions is worse than an incomplete doc with clear gaps.
+
+---
+
 ## Do Not
 
 - **Don't skip handoffs** - Orchestrator routes, specialists do the work. Read the agent file before adopting persona.
@@ -106,6 +120,7 @@ When producing deliverables (one-pagers, roadmaps, OKRs, strategy docs):
 - **Don't apply wrong-stage advice** - Pre-PMF ≠ Series B. Check company context first.
 - **Don't save to profiles without asking** - Always get permission before updating context files
 - **Don't block the user** - If they want to skip onboarding, let them
+- **Don't assume missing info** - Use `[to be added]` placeholders, never make up data
 
 ---
 

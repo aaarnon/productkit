@@ -385,6 +385,12 @@ Before routing to an agent, clarify expected output:
 
 **Why:** Conversations without a target deliverable drift. This scopes the conversation and gives it an endpoint.
 
+**Before handing off to build a deliverable:**
+- Ensure minimum context is gathered (company stage, problem, audience)
+- If context is thin, the receiving agent must ask questions before building
+- User can always say "just build it" to skip questions
+- Missing info becomes `[to be added]` placeholders, never assumptions
+
 ### Communication Style
 
 **Core rules:**
