@@ -41,25 +41,33 @@ into a new top-level directory in this project called "productkit/"
 
 ### Verify
 
-Reference files with `@productkit/` mentions or start chatting. The Orchestrator will introduce itself.
+Start chatting about a product challenge. The Orchestrator will introduce itself and guide from there.
 
 ### Using a Different AI Tool
 
-This project was built for Claude Code, but works with any AI coding tool.
+ProductKit uses `CLAUDE.md` files for AI context. Other CLIs can read these via fallback config.
 
-The `CLAUDE.md` files provide AI context. If using a different tool, create symlinks to your tool's config filename:
+**Claude Code** — works automatically.
 
-```bash
-# From productkit directory - replace TARGET with your tool's config filename
-find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/TARGET"' _ {} \;
+**Codex** — add to `~/.codex/config.toml`:
+```toml
+project_doc_fallback_filenames = ["CLAUDE.md"]
 ```
 
-| Tool | Target Filename | Command |
-|------|-----------------|---------|
-| Gemini CLI | GEMINI.md | `find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/GEMINI.md"' _ {} \;` |
-| Codex | AGENTS.md | `find . -name "CLAUDE.md" -exec sh -c 'ln -sf CLAUDE.md "$(dirname "$1")/AGENTS.md"' _ {} \;` |
-| Cursor | .cursorrules | `ln -sf CLAUDE.md .cursorrules` (root only) |
-| Antigravity | Check docs | Replace TARGET in command above |
+**Gemini CLI** — add to `~/.gemini/settings.json`:
+```json
+{
+  "context": {
+    "fileName": ["CLAUDE.md", "GEMINI.md"]
+  }
+}
+```
+
+**Cursor** — add to your `.cursorrules`:
+```
+Read and follow all CLAUDE.md files in this repository.
+```
+You can also reference files directly with `@productkit/` mentions.
 
 ---
 
