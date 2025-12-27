@@ -39,9 +39,13 @@ into a new top-level directory in this project called "productkit/"
 
 ### Setup by AI Tool
 
-ProductKit uses `CLAUDE.md` files for AI context. Other CLIs can read these via fallback config.
+ProductKit uses `CLAUDE.md` files as the standard. Why Claude? As of this writing, Claude seems best suited for back-and-forth conversations, which ProductKit relies on. Tools like Codex and Gemini appear better for one-shot solutions. This is just the author's observation, so feel free to choose your preferred tool.
 
-**Claude Code** - works automatically.
+Other CLIs and IDEs can read these files via fallback config.
+
+--
+
+**Claude Code** - no setup needed. Works automatically.
 
 --
 
@@ -53,20 +57,19 @@ After cloning, load `@productkit` to initialize context.
 
 --
 
-**Codex** - add to `~/.codex/config.toml`:
-```toml
-project_doc_fallback_filenames = ["CLAUDE.md"]
+**Codex** - after cloning, run this prompt in Codex:
+```
+Update ~/.codex/config.toml to add a per-project entry for the current working
+directory with project_doc_fallback_filenames = ["CLAUDE.md"], leaving global
+defaults unchanged. If the project entry doesn't exist, create it.
 ```
 
 --
 
-**Gemini CLI** - add to `~/.gemini/settings.json`:
-```json
-{
-  "context": {
-    "fileName": ["CLAUDE.md", "GEMINI.md"]
-  }
-}
+**Gemini CLI** - after cloning, run this prompt in Gemini:
+```
+Update ~/.gemini/settings.json to add context.fileName array with ["CLAUDE.md", "GEMINI.md"],
+leaving other settings unchanged. If the file doesn't exist, create it.
 ```
 
 --
