@@ -73,8 +73,9 @@ defaults unchanged. If the project entry doesn't exist, create it.
 
 **Gemini CLI** - after cloning, run this prompt in Gemini:
 ```
-Update ~/.gemini/settings.json to add context.fileName array with ["CLAUDE.md", "GEMINI.md"],
-leaving other settings unchanged. If the file doesn't exist, create it.
+Update or create the project-specific settings file located at .gemini/settings.json in the current
+directory. Ensure the JSON contains a "context" object with a "fileName" array set to ["CLAUDE.md",
+"GEMINI.md"]. Preserve any other existing settings in the file.
 ```
 
 --
