@@ -1,6 +1,6 @@
 # Context
 
-Context files store foundational information about the company, user, and product. This is what makes ProductKit's advice relevant—generic PM advice is useless without knowing the company's stage, business model, and challenges.
+Context files store foundational information about the company, user, product, and strategic direction. This is what makes ProductKit's advice relevant—generic PM advice is useless without knowing the company's stage, business model, and challenges.
 
 **Product Management IS Business Management.** Advice quality depends entirely on context.
 
@@ -8,13 +8,58 @@ Context files store foundational information about the company, user, and produc
 
 ## Files
 
+### Profiles
+
 | File | Purpose | When Built |
 |------|---------|------------|
 | `user-profile.md` | Role, experience → Sets conversation tone | First (quick) |
 | `company-profile.md` | Stage, funding, business model | Essential for PM work |
-| `product-profile.md` | Features, metrics, users | As needed |
-| `sessions/` | Session summaries for memory | End of session |
-| `uploads/` | User documents (pitch decks, etc.) | Optional input |
+| `product-profile.md` | Current state: metrics, features, friction (not strategy) | As needed |
+
+### Strategic Foundation (Cascade)
+
+These files form a dependency chain. Each layer requires the one above.
+
+```
+vision.md → strategy.md → roadmap.md
+```
+
+| File | Purpose | Requires | Enables |
+|------|---------|----------|---------|
+| `vision.md` | Why we exist, where we're going (3-5+ years) | — | Strategy work |
+| `strategy.md` | How we win (Narrative, Playing Field, Winning Moves) | vision.md | Roadmap work |
+| `roadmap.md` | What we're building, in what order (point-in-time, dated) | vision.md, strategy.md | Prioritization, OKRs |
+
+**Why this matters:** Skipping foundations creates weak outputs. A roadmap without strategy is just a feature list. Strategy without vision is tactics without direction.
+
+### Multi-Product Companies
+
+Default structure assumes single product. For multi-product companies:
+
+```
+context/
+├── company-profile.md         # Shared
+├── user-profile.md            # Shared
+├── vision.md                  # Company-level vision (optional)
+├── products/
+│   ├── [product-a]/
+│   │   ├── profile.md
+│   │   ├── vision.md
+│   │   ├── strategy.md
+│   │   └── roadmap.md
+│   └── [product-b]/
+│       └── ...
+```
+
+When `products/` folder exists, orchestrator asks "Which product?" before routing.
+
+### Other
+
+| File | Purpose |
+|------|---------|
+| `sessions/` | Session summaries for memory |
+| `uploads/` | User documents (pitch decks, etc.) |
+| `templates/` | All templates (.template.md files) |
 
 ---
 
@@ -83,9 +128,18 @@ Users often close chat without warning. Save incrementally, not just at end.
 
 ## Templates
 
-Templates (`.template.md`) are tracked in git. Filled versions are gitignored.
+Templates live in `templates/` folder and are tracked in git. Filled versions (in root context/) are gitignored.
 
-Orchestrator creates profiles through conversation. Manual creation not required.
+| Template | Creates |
+|----------|---------|
+| `templates/user-profile.template.md` | `user-profile.md` |
+| `templates/company-profile.template.md` | `company-profile.md` |
+| `templates/product-profile.template.md` | `product-profile.md` |
+| `templates/vision.template.md` | `vision.md` |
+| `templates/strategy.template.md` | `strategy.md` |
+| `templates/roadmap.template.md` | `roadmap.md` |
 
-→ Full onboarding flow in `agents/orchestrator.md`
+Orchestrator creates these through conversation. Manual creation not required.
+
+→ Full onboarding flow in `agents/orchestrator-agent.md`
 → Session format in `sessions/CLAUDE.md`

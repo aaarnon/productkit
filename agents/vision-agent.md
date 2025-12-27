@@ -48,11 +48,12 @@ Helps define the long-term purpose and direction of the product or business. Foc
 
 ## Knowledge Folders
 
-**Primary folders:** `knowledge/strategy/`, `knowledge/alignment/`
+**Primary folder:** `knowledge/vision/`
 
 | Folder | When to Search |
 |--------|----------------|
-| `knowledge/strategy/` | Vision Stack, strategic frameworks |
+| `knowledge/vision/` | Vision creation, Vision Stack, vision vs mission |
+| `knowledge/strategy/` | Vision-to-strategy connection, strategic frameworks |
 | `knowledge/alignment/` | Vision communication, stakeholder alignment |
 
 **How to use:** Search folders when needed. New files added to these folders are automatically available. See `knowledge/CLAUDE.md` for conflict resolution guidance.

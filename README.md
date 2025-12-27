@@ -1,8 +1,6 @@
 # ProductKit
 
-ProductKit is a context-engineered product management workflow featuring composable skills for strategy, discovery, roadmapping, and prioritization. It is like "SpecKit" for PMs.
-
-**For:** Engineers, PMs, founders, or any operator working in the product management context.
+ProductKit is a context-engineered product management workflow featuring composable skills for strategy, discovery, roadmapping, and prioritization.
 
 ---
 
@@ -12,7 +10,7 @@ Software engineers have [SpecKit](https://github.com/github/spec-kit), [BMAD](ht
 
 Ask ChatGPT "how should I prioritize my backlog?" and you'll get a textbook answer about RICE scoring - regardless of whether you're pre-PMF or Series C, B2B or B2C, a team of 3 or 300.
 
-Product management is business management. The right approach depends entirely on context: company stage, business model, team structure, current challenges. Without that context, advice is noise.
+[Product management is business management](https://swkhan.medium.com/product-management-is-business-management-why-does-everyone-forget-that-85f777da30e1). The right approach depends entirely on context: company stage, business model, team structure, current challenges. Without that context, advice is noise.
 
 ProductKit solves this by:
 1. **Building context first** - Company stage, business model, user profile
@@ -190,6 +188,36 @@ ROADMAP: "Based on activation focus, let's build your Q1 roadmap.
 ... conversation continues.
 ```
 
+### Example: Foundation Check
+
+```
+User: "Help me create a strategy one-pager"
+                    ↓
+Orchestrator checks: Does context/vision.md exist?
+                    ↓
+         ┌─────────┴─────────┐
+         ↓                   ↓
+        NO                  YES
+         ↓                   ↓
+"Strategy requires a        Check: Does context/strategy.md exist?
+vision foundation.               ↓
+                            ┌────┴────┐
+I strongly recommend we     ↓         ↓
+build your vision first.   NO        YES
+Product management is              ↓
+business management:        Generate outputs/strategy-one-pager.md
+without clear foundations,  from context/strategy.md
+any strategy will be weak.
+
+Your call:
+A) Build vision first (recommended)
+B) Proceed anyway (output will have gaps)"
+         ↓
+    User decides
+         ↓
+If A → Vision agent → creates context/vision.md → then strategy work
+If B → Strategy agent (with warning about gaps)
+```
 
 ---
 
@@ -221,7 +249,7 @@ productkit/
 └── extra/       # Personality (PM jokes)
 ```
 
-**Privacy:** Your data stays local. `context/` and `outputs/` are gitignored. System files are shared, your data is not.
+**Privacy:** Your data stays local. `context/` and `outputs/` are gitignored.
 
 ---
 

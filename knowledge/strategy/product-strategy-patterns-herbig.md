@@ -15,38 +15,52 @@ Focus on **patterns** (flexible, context-dependent) instead of **templates** (ri
 
 ## The 3 Product Strategy Patterns
 
-Every product strategy, regardless of company or industry, can be understood through three fundamental patterns:
+Every product strategy, regardless of company or industry, can be understood through three fundamental patterns. These patterns influence each other: shifting one affects the others.
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   1. STRATEGIC NARRATIVE                                        │
-│   ─────────────────────                                         │
-│   WHY you're targeting this market opportunity                  │
-│   • Product Vision (future state for users)                     │
-│   • North Star Metric                                           │
-│   • Mid-to-long-term goals                                      │
-│                                                                 │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   2. PLAYING FIELD                                              │
-│   ─────────────────                                             │
-│   WHERE you compete                                             │
-│   • Prioritized audiences (users/buyers)                        │
-│   • Jobs they care about (progress they seek)                   │
-│   • Alternatives they compare you against                       │
-│                                                                 │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   3. WINNING MOVES                                              │
-│   ─────────────────                                             │
-│   HOW you position to best advantage                            │
-│   • Customer segments to focus on                               │
-│   • Value propositions                                          │
-│   • Channels                                                    │
-│   • Differentiators                                             │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                      PRODUCT STRATEGY PATTERNS                          │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│   ┌───────────────────────────────────────┐                             │
+│   │      STRATEGIC NARRATIVE (WHY)        │                             │
+│   │  ─────────────────────────────────    │                             │
+│   │  Why this market opportunity?         │                             │
+│   │                                       │                             │
+│   │  • Vision: Future state for users     │                             │
+│   │  • North Star: How we keep score      │                             │
+│   │  • Goals: Mid-to-long-term objectives │                             │
+│   └───────────────┬───────────────────────┘                             │
+│                   │                                                     │
+│                   ▼                                                     │
+│   ┌───────────────────────────────────────┐                             │
+│   │       PLAYING FIELD (WHERE)           │◄────────────────┐           │
+│   │  ─────────────────────────────────    │                 │           │
+│   │  Where do we compete?                 │                 │           │
+│   │                                       │                 │           │
+│   │  • Audiences: Users, buyers, segments │                 │           │
+│   │  • Jobs: Progress they care about     │                 │           │
+│   │  • Alternatives: What we're compared  │                 │           │
+│   │    against (including "do nothing")   │                 │           │
+│   └───────────────┬───────────────────────┘                 │           │
+│                   │                                         │           │
+│                   ▼                                         │           │
+│   ┌───────────────────────────────────────┐                 │           │
+│   │       WINNING MOVES (HOW)             │─────────────────┘           │
+│   │  ─────────────────────────────────    │  Moves affect Field:        │
+│   │  How do we position to win?           │  New segments → new         │
+│   │                                       │  alternatives. New jobs →   │
+│   │  • Segments: Which customers first?   │  new value props needed.    │
+│   │  • Value Props: What value delivered? │                             │
+│   │  • Channels: How do we reach them?    │                             │
+│   │  • Differentiators: Hard-to-copy?     │                             │
+│   │  • Trade-offs: What we're NOT doing   │                             │
+│   └───────────────────────────────────────┘                             │
+│                                                                         │
+├─────────────────────────────────────────────────────────────────────────┤
+│  VALIDATION: Does this strategy help us say NO to real options?         │
+│  □ Decisive (specific choices)  □ Differentiated  □ Actionable          │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---

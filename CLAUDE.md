@@ -20,7 +20,7 @@ The goal is always a concrete output. Every conversation should move toward a de
 
 ### Entry Point
 
-When a user describes a product problem → read `agents/orchestrator.md` first.
+When a user describes a product problem → read `agents/orchestrator-agent.md` first.
 
 Orchestrator will:
 1. Check `context/` profiles (or offer to build them)
@@ -59,7 +59,7 @@ Skills are horizontal - any agent can invoke any skill. The "Used By" column lis
 | `agents/` | 7 agent definitions | See `agents/CLAUDE.md` |
 | `skills/` | 11 utility skills | See `skills/CLAUDE.md` |
 | `knowledge/` | 55+ framework articles | Start with `resources.md`, see `CLAUDE.md` for details |
-| `context/` | Company, user, product profiles | See `context/CLAUDE.md` |
+| `context/` | Profiles + strategic foundation (vision, strategy, roadmap) | See `context/CLAUDE.md` |
 | `outputs/` | Generated deliverables | One-pagers, roadmaps, OKRs |
 | `extra/` | Personality files | `pm-jokes.md` |
 

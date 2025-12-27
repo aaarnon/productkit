@@ -52,6 +52,15 @@ Knowledge base index. Agents and skills MUST read this first to find relevant co
 
 ---
 
+## Vision
+
+| Article | File | Key Concepts | Topics | Author | Used By |
+|---------|------|--------------|--------|--------|---------|
+| [How to Create a Product Vision](https://swkhan.medium.com/how-to-create-a-product-vision-445e1fced272) | `vision/how-to-create-product-vision-khan.md` | Vision Stack, Vision vs Mission, Vision vs Vision Statement, 6 Components Framework, Iterative Creation Process | `vision-crafting` `mission` `vision-stack` `aspirational-goals` `market-situation` | Saeed Khan | Vision, Strategy, Orchestrator, positioning, initiative-alignment-doc |
+| [Crafting Compelling Product Vision](https://medium.com/@ebi_atawodi) | `vision/crafting-compelling-product-vision-atawodi.md` | Vision vs Mission, 4 Core Elements, Once Upon a Time Storytelling, Elevator Pitch, 3-Phase Process | `vision-crafting` `mission` `storytelling` `elevator-pitch` `evangelism` | Ebi Atawodi | Vision, Strategy, Stakeholder, Orchestrator, positioning, initiative-alignment-doc |
+
+---
+
 ## Product Strategy
 
 | Article                                                                                                         | File                                                | Key Concepts                                                                                                                                     | Topics                                                                                | Author                        | Used By                                                                                                 |
@@ -144,7 +153,6 @@ Knowledge base index. Agents and skills MUST read this first to find relevant co
 | [Data-Informed Cycle](https://cutlefish.substack.com/p/tbm-852-the-data-informed-product) | `alignment/data-informed-product-cycle-cutler.md` | 6-Stage Loop (Strategy/Models/Metrics/Leverage Points/Bets/Learning), Messy Middle, North Star Framework | `data-informed` `strategy-to-execution` `mental-models` `leverage-points` `learning-loops` | John Cutler | Strategy, Metrics, Discovery, Roadmap, impact-model-builder, metric-selector, leading-lagging-mapper, aarrr-analyzer |
 | [Product Operating Model](https://www.producttalk.org/the-product-operating-model/) | `alignment/product-operating-model-teresa-torres.md` | 3 Principles (Outcome Focus/Continuous Discovery/Cross-Functional), Product Trios, Pilot Team Approach | `operating-model` `continuous-discovery` `outcome-focus` `product-trios` `transformation` | Teresa Torres | Orchestrator, Discovery, Stakeholder, Strategy, interview-summary, okr-builder, initiative-alignment-doc |
 | [Business Impact to Roadmap](https://www.justanotherpm.com/blog/how-to-translate-business-impact-to-a-product-roadmap) | `alignment/translate-business-impact-to-roadmap-arora.md` | 4-Level Framework, Top-Down/Bottom-Up Flows, Limited Universe, Problem Sequencing, Impact Translation | `business-product-alignment` `impact-translation` `problem-sequencing` `portfolio-thinking` | Sid Arora | Strategy, Roadmap, Metrics, Orchestrator, okr-builder, impact-model-builder, leading-lagging-mapper, initiative-alignment-doc |
-| [Product Vision](https://medium.com/@ebi_atawodi) | `alignment/crafting-compelling-product-vision-atawodi.md` | Vision vs Mission, 4 Core Elements, Once Upon a Time Storytelling, Elevator Pitch, 3-Phase Process | `vision-crafting` `mission` `storytelling` `elevator-pitch` `evangelism` | Ebi Atawodi | Vision, Strategy, Stakeholder, Orchestrator, positioning, initiative-alignment-doc |
 | Six Steps Production Process | `alignment/six-steps-production-process.md` | 6 Stages (Objective/Problems/Ideation/Exploration/Delivery/Follow-up), Cyclical Feedback, One-Pagers | `product-lifecycle` `process` `stage-gates` `feedback-loops` `problem-definition` | Hustle Badger | Orchestrator, Discovery, Roadmap, Metrics, opportunity-tree, okr-builder, initiative-alignment-doc |
 | Product Alignment Document Template | `alignment/product-alignment-document-template.md` | 4-Section Template, RACI Matrix, Four Risk Types, User Flows, Decision Log, Launch Readiness | `alignment-template` `RACI` `risk-types` `user-flows` `launch-readiness` | Arnon | Discovery, Roadmap, Stakeholder, Metrics, initiative-alignment-doc, impact-model-builder |
 | How to Use Product Alignment Doc | `alignment/how-to-use-product-alignment-doc.md` | 3 Phases (Opportunity/Solution/Expected Outcome), Problem Statement, Dependencies, GTM, 4 Decision Outcomes | `alignment-documents` `problem-framing` `solution-framing` `dependencies` `GTM` | Arnon | Discovery, Roadmap, Stakeholder, Strategy, initiative-alignment-doc, opportunity-tree, okr-builder |
