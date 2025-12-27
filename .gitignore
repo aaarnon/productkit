@@ -31,6 +31,9 @@ decisions.md
 # SYSTEM FILES
 # ===========================================
 
+# Claude Code settings (user-specific)
+.claude/
+
 # macOS
 .DS_Store
 
