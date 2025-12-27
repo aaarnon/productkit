@@ -72,7 +72,7 @@ Ask: "Is the main risk execution speed, or figuring out what to build?" Adapt gu
 | Folder | Contents | Details |
 |--------|----------|---------|
 | `skills/` | 17 skills | See `skills/CLAUDE.md` |
-| `knowledge/` | 55+ framework articles | Start with `resources.md` |
+| `knowledge/` | Framework articles | Start with `resources.md` |
 | `context/` | Profiles + strategic foundation | See `context/CLAUDE.md` |
 | `outputs/` | Generated deliverables | One-pagers, roadmaps, OKRs |
 

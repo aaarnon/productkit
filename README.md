@@ -239,7 +239,7 @@ The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PM
 ```
 productkit/
 ├── skills/          # All 17 skills (strategy, discovery, metrics, etc.)
-├── knowledge/   # 55+ articles from product thought leaders
+├── knowledge/   # Articles from product thought leaders
 ├── context/     # Your data: profiles, foundations, sessions (gitignored)
 │   └── templates/  # Templates (git tracked)
 └── outputs/     # Generated deliverables (gitignored)
