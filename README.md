@@ -169,12 +169,11 @@ Orchestrator checks: Does context/vision.md exist?
          ↓                   ↓
 "Strategy requires a        Check: Does context/strategy.md exist?
 vision foundation.               ↓
-                            ┌────┴────┐
-Your call:                  ↓         ↓
-A) Build vision first      NO        YES
-B) Proceed anyway"                ↓
-         ↓                  Generate outputs/strategy-one-pager.md
-    User decides            from context/strategy.md
+Your call:                  ┌────┴────┐
+A) Build vision first       ↓         ↓
+B) Proceed anyway"         NO        YES
+         ↓                        ↓
+    User decides            Generate outputs/strategy-one-pager.md
          ↓
 If A → Vision agent → creates context/vision.md → then strategy work
 If B → Strategy agent (with warning about gaps)
