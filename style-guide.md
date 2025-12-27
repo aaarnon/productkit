@@ -15,6 +15,27 @@
 
 ---
 
+## Required Document Structure
+
+All outputs must follow this structure:
+
+### 1. Overview (Required)
+
+2-3 sentences max. Answer:
+- What is this document?
+- Why does it matter now?
+- What decision does it support?
+
+### 2. Main Content
+
+Document-specific sections.
+
+### 3. FAQ (Recommended)
+
+See FAQ section below for rules.
+
+---
+
 ## Designing Documents
 
 ### Sections to Skip
@@ -33,24 +54,25 @@ Don't add sections you don't need right now. Common offenders:
 
 **FAQ (Recommended)**
 
-End documents with a short FAQ that anticipates meeting questions.
+End documents with a short FAQ that anticipates hard questions.
 
-**Why:** Keeps main narrative clean. Shows you've thought through objections. Saves meeting time.
+**Purpose:** Surface the difficult questions an expert or skeptical exec would ask. Not softballs.
 
 **Rules:**
 - 3-5 questions max
-- Only questions that WILL come up
+- Strategic questions that challenge the document's assumptions or recommendations
+- Prefix each answer with `[Suggested answer - Please review]` to signal these need validation
 - Short answers (2-3 sentences)
 
 **Good FAQ questions:**
-- "Why not do X instead?" (addresses alternatives)
-- "What if Y happens?" (addresses key risk)
-- "How does this affect Z team?" (addresses dependencies)
+- "What's the biggest risk if we're wrong about X assumption?"
+- "Why not [obvious alternative]?"
+- "What would make us reverse this decision?"
 
 **Bad FAQ questions:**
-- Generic questions nobody would ask
 - Questions already answered in main doc
-- More than 5 questions (you're padding)
+- Obvious questions that don't require expertise to ask
+- Setup questions designed to make the doc look good
 
 ---
 

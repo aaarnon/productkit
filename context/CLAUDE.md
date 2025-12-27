@@ -141,5 +141,5 @@ Templates live in `templates/` folder and are tracked in git. Filled versions (i
 
 Orchestrator creates these through conversation. Manual creation not required.
 
-→ Full onboarding flow in `agents/orchestrator-agent.md`
+→ Full onboarding flow in `.claude/skills/orchestrator/SKILL.md`
 → Session format in `sessions/CLAUDE.md`

@@ -18,35 +18,27 @@ The goal is always a concrete output. Every conversation should move toward a de
 
 ## How It Works
 
-### Entry Point
+### Skills
 
-When a user describes a product problem → read `agents/orchestrator-agent.md` first.
+All capabilities live in `.claude/skills/`. Each skill has a `SKILL.md` with YAML frontmatter (name + description).
 
-Orchestrator will:
-1. Check `context/` profiles (or offer to build them)
-2. Diagnose Red/Blue phase
-3. **Hand off to appropriate agent** (read agent file, announce handoff, adopt persona)
+**Two types:**
+- **Conversation modes**: Extended guidance (orchestrator, discovery, strategy, metrics, roadmap, stakeholder, vision)
+- **Output tools**: Discrete deliverables (prioritization, okr-builder, opportunity-tree, etc.)
 
-After handoff, stay in that agent's persona until work is complete or user needs a different agent.
+For tools with auto-discovery (Claude Code): Skills trigger automatically based on description matching.
 
-### Agents vs Skills
+For tools without auto-discovery (Cursor, etc.): Read `.claude/skills/CLAUDE.md` for the index, then load the relevant SKILL.md based on user intent.
 
-| Type | Purpose | Behavior |
-|------|---------|----------|
-| **Agents** | Extended coaching conversations | Read file, announce handoff, stay in persona |
-| **Skills** | Discrete tool outputs | Auto-invoke or called by agents |
-
-→ See `agents/CLAUDE.md` and `skills/CLAUDE.md` for details
+→ See `.claude/skills/CLAUDE.md` for full skill list
 
 ### Accessing Knowledge
 
 **Always start with `knowledge/resources.md`** - it's the index for all 55+ articles.
 
-1. Filter the "Used By" column for your agent name OR skill name
+1. Filter the "Used By" column for the skill name
 2. Read the file from the File column
 3. Cross-domain articles are mapped - an article in `strategy/` may be relevant to Discovery
-
-Skills are horizontal - any agent can invoke any skill. The "Used By" column lists both agents and skills together.
 
 → See `knowledge/CLAUDE.md` for conflict handling and examples
 
@@ -56,14 +48,13 @@ Skills are horizontal - any agent can invoke any skill. The "Used By" column lis
 
 | Folder | Contents | Details |
 |--------|----------|---------|
-| `agents/` | 7 agent definitions | See `agents/CLAUDE.md` |
-| `skills/` | 11 utility skills | See `skills/CLAUDE.md` |
+| `.claude/skills/` | 18 skills (7 modes + 11 tools) | See `.claude/skills/CLAUDE.md` |
 | `knowledge/` | 55+ framework articles | Start with `resources.md`, see `CLAUDE.md` for details |
 | `context/` | Profiles + strategic foundation (vision, strategy, roadmap) | See `context/CLAUDE.md` |
 | `outputs/` | Generated deliverables | One-pagers, roadmaps, OKRs |
 | `extra/` | Personality files | `pm-jokes.md` |
 
-All agent and skill files use YAML frontmatter (name + description).
+All skill files use YAML frontmatter (name + description).
 
 ---
 
@@ -115,7 +106,6 @@ When producing deliverables (one-pagers, roadmaps, OKRs, strategy docs):
 
 ## Do Not
 
-- **Don't skip handoffs** - Orchestrator routes, specialists do the work. Read the agent file before adopting persona.
 - **Don't hallucinate frameworks** - If you don't find it in `knowledge/`, don't invent it
 - **Don't apply wrong-stage advice** - Pre-PMF ≠ Series B. Check company context first.
 - **Don't save to profiles without asking** - Always get permission before updating context files

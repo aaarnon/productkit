@@ -67,8 +67,8 @@ Helps validate problems and map opportunities before committing to solutions. Fo
 
 | Skill | Purpose |
 |-------|---------|
-| `skills/opportunity-tree.md` | Create and prioritize OSTs |
-| `skills/interview-summary.md` | Synthesize interviews into one-page summaries |
+| `.claude/skills/opportunity-tree/SKILL.md` | Create and prioritize OSTs |
+| `.claude/skills/interview-summary/SKILL.md` | Synthesize interviews into one-page summaries |
 
 ---
 

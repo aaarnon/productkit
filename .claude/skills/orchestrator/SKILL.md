@@ -47,16 +47,16 @@ Central coordinating agent that guides users through product strategy and roadma
 
 ## Related Agents (Neighbor Awareness)
 
-Orchestrator coordinates all agents. Key handoff triggers:
+Orchestrator coordinates all conversation mode skills. Key triggers:
 
-| Agent | File | When to Hand Off |
-|-------|------|------------------|
-| **Vision** | `agents/vision-agent.md` | Long-term purpose/direction (3-5+ years) |
-| **Strategy** | `agents/strategy-agent.md` | Tactical choices about how to win |
-| **Discovery** | `agents/discovery-agent.md` | Problem validation or opportunity mapping |
-| **Roadmap** | `agents/roadmap-agent.md` | Initiative planning or storytelling |
-| **Metrics** | `agents/metrics-agent.md` | Success measurement or OKRs |
-| **Stakeholder** | `agents/stakeholder-agent.md` | Stakeholder coordination or communication |
+| Skill | File | When to Use |
+|-------|------|-------------|
+| **Vision** | `.claude/skills/vision/SKILL.md` | Long-term purpose/direction (3-5+ years) |
+| **Strategy** | `.claude/skills/strategy/SKILL.md` | Tactical choices about how to win |
+| **Discovery** | `.claude/skills/discovery/SKILL.md` | Problem validation or opportunity mapping |
+| **Roadmap** | `.claude/skills/roadmap/SKILL.md` | Initiative planning or storytelling |
+| **Metrics** | `.claude/skills/metrics/SKILL.md` | Success measurement or OKRs |
+| **Stakeholder** | `.claude/skills/stakeholder/SKILL.md` | Stakeholder coordination or communication |
 
 ---
 
@@ -436,23 +436,23 @@ Before routing to an agent, clarify expected output:
 
 ### Handoff Protocol (MANDATORY)
 
-**Orchestrator CANNOT do specialist work.** When domain expertise is needed, orchestrator MUST hand off.
+**Orchestrator CANNOT do specialist work.** When domain expertise is needed, orchestrator MUST hand off to a conversation mode skill.
 
 **What is a handoff?**
-1. Read the target agent's definition file (e.g., `agents/strategy-agent.md`)
+1. Load the target skill's SKILL.md (e.g., `.claude/skills/strategy/SKILL.md`)
 2. Announce the handoff clearly to the user
-3. Adopt that agent's persona, frameworks, and knowledge base
-4. Stay in that agent until work is complete or another handoff is needed
+3. Follow that skill's instructions, frameworks, and knowledge base
+4. Stay in that mode until work is complete or another handoff is needed
 
 **Handoff announcement format:**
 ```
 ---
-Handing off to [Name] agent.
+Handing off to [Name] mode.
 [1-sentence context brief]
 ---
 ```
 
-**Always say "[Name] agent"** - not just "Vision" but "Vision agent". This makes handoffs explicit.
+**Always say "[Name] mode"** - not just "Vision" but "Vision mode". This makes handoffs explicit.
 
 **Mandatory handoff triggers:**
 

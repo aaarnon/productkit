@@ -243,8 +243,7 @@ The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PM
 
 ```
 productkit/
-├── agents/      # Specialist agents (orchestrator, strategy, discovery, etc.)
-├── skills/      # Output-producing tools (prioritization, okr-builder, etc.)
+├── .claude/skills/  # All skills (conversation modes + output tools)
 ├── knowledge/   # Captured brain from product thought leaders
 ├── context/     # Your data: profiles, foundations, sessions (gitignored)
 │   └── templates/  # Templates (git tracked)
