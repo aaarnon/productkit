@@ -27,6 +27,8 @@ Strategic work builds on foundations. **Always check prerequisites before creati
 
 ```
 Vision → Strategy → Metrics → Discovery → Roadmap
+  ↓         ↓          ↓          ↓           ↓
+(Why)    (How)    (Success)  (Problems)   (What)
 ```
 
 | Want to work on... | First check for... |

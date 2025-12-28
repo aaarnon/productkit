@@ -66,6 +66,8 @@ All capabilities live in `skills/`. Read `skills/CLAUDE.md` for the full index.
 
 ```
 Vision → Strategy → Metrics → Discovery → Roadmap
+  ↓         ↓          ↓          ↓           ↓
+(Why)    (How)    (Success)  (Problems)   (What)
 ```
 
 | User wants... | Requires |
