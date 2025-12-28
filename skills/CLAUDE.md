@@ -7,6 +7,10 @@ All capabilities live here as `SKILL_NAME/SKILL.md` files with YAML frontmatter.
 ## Skill Hierarchy
 
 ```
+ENTRY POINT
+───────────────────────────────────────────────────────
+using-productkit    →    (auto-injected at session start)
+
 MAIN SKILLS              UTILITY SKILLS
 ───────────────────────────────────────────────────────
 vision              →    (none)
@@ -22,7 +26,15 @@ strategy            →    positioning
 roadmap             →    initiative-alignment-doc, prioritization
 stakeholder         →    initiative-alignment-doc
 
-skill-creator       →    (meta: for building new skills)
+EXECUTION WORKFLOW
+───────────────────────────────────────────────────────
+writing-pm-plans         →    (break down initiatives)
+executing-pm-plans       →    (implement with checkpoints)
+verification-before-completion → (verify before claiming done)
+
+META
+───────────────────────────────────────────────────────
+skill-creator       →    (for building new skills)
 ```
 
 **Foundation chain:** `context/vision.md` → `context/strategy.md` → `context/roadmap.md`
@@ -71,6 +83,8 @@ Before transitioning to next skill:
 
 | Skill | When to Use |
 |-------|-------------|
+| **ENTRY POINT** | |
+| `using-productkit` | Session start, how ProductKit works, which skill to use |
 | **MAIN SKILLS** | |
 | `vision` | Vision, purpose, mission, long-term direction (3-5+ years) |
 | `strategy` | Strategy, positioning, differentiation, "how to win" |
@@ -89,6 +103,10 @@ Before transitioning to next skill:
 | `aarrr-analyzer` | Analyzing funnels, "where is funnel breaking" |
 | `initiative-alignment-doc` | Documenting initiatives, alignment docs |
 | `prioritization` | Comparing roadmap options, ranking features, "what should we focus on" |
+| **EXECUTION WORKFLOW** | |
+| `writing-pm-plans` | Breaking down PM initiatives, creating execution plans |
+| `executing-pm-plans` | Implementing plans with checkpoints, resuming work |
+| `verification-before-completion` | Verifying deliverables meet success criteria |
 | **META** | |
 | `skill-creator` | Building new skills, creating SKILL.md files |
 

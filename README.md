@@ -51,7 +51,7 @@ Other CLIs and IDEs can read these files via fallback config.
 
 --
 
-**Claude Code** - Full skill auto-discovery. Optimal experience for this project. No setup needed.
+**Claude Code** - Full skill auto-discovery. Optimal experience. No setup needed.
 
 --
 
