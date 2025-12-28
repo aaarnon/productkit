@@ -32,6 +32,17 @@ I need to understand your context first: your role, company stage, and current c
 
 Let's start: What's your role and how long have you been in it?"
 
+### Auto-Save Progress
+
+Save context automatically (no permission needed):
+- After completing a skill stage (vision, strategy, metrics, discovery, roadmap)
+- After significant decision or direction change
+- Before switching topics
+
+Notify briefly: "Saved progress to context/[file].md"
+
+If incomplete, use `[Needs input: ...]` placeholders. Partial progress is better than lost progress.
+
 ### Skills
 
 All capabilities live in `skills/`. Read `skills/CLAUDE.md` for the full index.

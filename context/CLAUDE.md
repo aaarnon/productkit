@@ -128,21 +128,6 @@ Don't interrupt conversation flow. Add at natural pauses.
 
 ---
 
-## Auto-Save (Strict)
-
-Context files are saved automatically. Never ask permission - just save and notify.
-
-**Auto-save triggers:**
-- After completing a skill stage (vision, strategy, etc.)
-- After significant decision or direction change
-- Before switching topics
-
-**Notify briefly:** "Saved progress to context/strategy.md"
-
-**If incomplete:** Use `[Needs input: ...]` placeholders. Still save - partial progress is better than lost progress.
-
----
-
 ## Templates
 
 Templates live in `templates/` folder and are tracked in git. Filled versions (in root context/) are gitignored.
