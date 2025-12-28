@@ -6,11 +6,11 @@ ProductKit is a context-aware system for product management, featuring composabl
 
 ## Overview
 
-Software engineers have [SpecKit](https://github.com/github/spec-kit), [BMAD](https://github.com/bmadcode/BMAD-METHOD), or [Superpowers](https://github.com/obra/superpowers) for context-engineered development. Product managers? Unstructured chats with LLMs that lead to generic advice.
+Software engineers have [SpecKit](https://github.com/github/spec-kit), [BMAD](https://github.com/bmadcode/BMAD-METHOD), or [Superpowers](https://github.com/obra/superpowers) for context-driven development. Product managers? Unstructured chats with LLMs that lead to generic advice.
 
 Ask ChatGPT "how should I prioritize my backlog?" and you'll get a textbook answer about RICE scoring - regardless of whether you're pre-PMF or Series C, B2B or B2C, a team of 3 or 300.
 
-[Product management is business management](https://swkhan.medium.com/product-management-is-business-management-why-does-everyone-forget-that-85f777da30e1). The right approach depends entirely on context: company stage, business model, team structure, current challenges. Without that context, advice is noise.
+However, [product management is business management](https://swkhan.medium.com/product-management-is-business-management-why-does-everyone-forget-that-85f777da30e1). The right approach depends entirely on context: company stage, business model, team structure, current challenges. Without that context, advice is noise.
 
 ProductKit solves this by:
 1. **Building context first** - Company stage, business model, user profile
@@ -138,19 +138,13 @@ flowchart TB
     U((User)) <--> AI{AI Tool}
     AI <-.->|checks| C[(Context)]
 
-    AI <--> V[Vision]
-    AI <--> S[Strategy]
-    AI <--> D[Discovery]
-    AI <--> R[Roadmap]
-    AI <--> M[Metrics]
-    AI <--> ST[Stakeholder]
-
-    V <-.-> S
-    S <-.-> D
-    S <-.-> R
-    D <-.-> R
-    R <-.-> M
-    M <-.-> ST
+    AI --> V[Vision]
+    V --> S[Strategy]
+    S --> D[Discovery]
+    S --> M[Metrics]
+    D --> R[Roadmap]
+    M --> R
+    R --> ST[Stakeholder]
 
     V & S & D & R & M & ST --> Out>Deliverable]
     Out --- E1[Roadmap]
@@ -164,20 +158,20 @@ flowchart TB
 ```
 User: "Help me create a strategy one-pager"
                          ↓
-   ProductKit checks: Does context/vision.md exist?
+   ProductKit checks: Do we have a product vision?
                          ↓
          ┌───────────────┴───────────────┐
          ↓                               ↓
         NO                              YES
          ↓                               ↓
-"Vision missing.            Check: Does context/strategy.md exist?
+"Vision missing.            Check: Do we have a strategy?
 Your call:                               ↓
 A) Build vision first               ┌────┴────┐
 B) Proceed anyway"                  ↓         ↓
          ↓                         NO        YES
     User decides                    ↓         ↓
          ↓               "Strategy missing.    Generate output from
-If A → Vision skill       Your call:           context/strategy.md
+If A → Vision skill       Your call:           existing strategy
 If B → Proceed            A) Build strategy
        with gaps          B) Proceed anyway"
 ```
@@ -238,7 +232,7 @@ The knowledge base includes diverse (sometimes conflicting) viewpoints. Great PM
 
 ```
 productkit/
-├── skills/          # All 17 skills (strategy, discovery, metrics, etc.)
+├── skills/      # Composable skills (strategy, discovery, metrics, etc.)
 ├── knowledge/   # Articles from product thought leaders
 ├── context/     # Your data: profiles, foundations, sessions (gitignored)
 │   └── templates/  # Templates (git tracked)
