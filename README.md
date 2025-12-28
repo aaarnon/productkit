@@ -90,7 +90,7 @@ directory. Ensure the JSON contains a "context" object with a "fileName" array s
 
 **Knowledge** is the source material (from John Cutler, Teresa Torres, Tim Herbig, April Dunford, Brian Balfour, and other product legends).
 
-**Context** stores your company profile, user profile, and strategic foundation (vision → strategy → roadmap).
+**Context** stores your company profile, user profile, and strategic foundation (vision → strategy → metrics → discovery → roadmap).
 
 ```
 ┌────────────────────────────────────────────────────────────────┐

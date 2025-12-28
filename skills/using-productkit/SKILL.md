@@ -23,21 +23,26 @@ ProductKit has specialized skills for different PM tasks. Each skill provides st
 
 ## The Foundation Chain
 
-Strategic work builds on foundations. Check prerequisites before creating deliverables:
+Strategic work builds on foundations. **Always check prerequisites before creating deliverables:**
 
 ```
-Vision → Strategy → Roadmap
-  ↓         ↓          ↓
- Why?     How?      What/When?
+Vision → Strategy → Metrics → Discovery → Roadmap
 ```
 
 | Want to work on... | First check for... |
 |--------------------|-------------------|
-| Strategy | `context/vision.md` |
-| Roadmap | `context/vision.md` + `context/strategy.md` |
-| OKRs/Metrics | `context/vision.md` + `context/strategy.md` |
+| Strategy | Vision |
+| Metrics | Vision + Strategy |
+| Discovery | Vision + Strategy + Metrics |
+| Roadmap | Vision + Strategy + Metrics + Opportunities |
 
-**If foundations missing:** Recommend building them first. User can skip, but flag output as incomplete.
+**STOP before Roadmap.** Do not build a roadmap without:
+1. Metrics defined (what outcomes matter - not necessarily OKRs, any success measures)
+2. Opportunities identified (what problems/needs to address)
+
+A roadmap without these is just a feature list.
+
+**If foundations missing:** Recommend building them first. User can skip, but flag output as incomplete. Never include time estimates.
 
 ---
 

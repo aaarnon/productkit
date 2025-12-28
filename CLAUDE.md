@@ -51,19 +51,26 @@ All capabilities live in `skills/`. Read `skills/CLAUDE.md` for the full index.
 
 ### Foundation Check
 
-Before creating deliverables, check if required foundations exist:
+**Always check prerequisites before creating deliverables:**
 
 ```
-context/vision.md → context/strategy.md → context/roadmap.md
+Vision → Strategy → Metrics → Discovery → Roadmap
 ```
 
 | User wants... | Requires |
 |---------------|----------|
 | Strategy work | context/vision.md |
-| Roadmap work | context/vision.md + context/strategy.md |
-| OKRs/Metrics | context/vision.md + context/strategy.md |
+| Metrics | context/vision.md + context/strategy.md |
+| Discovery | context/vision.md + context/strategy.md + metrics |
+| Roadmap work | Vision + Strategy + Metrics + Opportunities |
 
-If missing, recommend building foundation first. User can skip, but flag output as incomplete.
+**STOP before Roadmap.** Do not build a roadmap without:
+1. Metrics defined (what outcomes matter)
+2. Opportunities identified (what problems/needs to address)
+
+A roadmap without these is just a feature list.
+
+If missing, recommend building foundation first. User can skip, but flag output as incomplete. **Never include time estimates** when offering to build foundations.
 
 ### Red vs Blue Awareness
 

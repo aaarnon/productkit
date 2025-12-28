@@ -37,12 +37,11 @@ META
 skill-creator       →    (for building new skills)
 ```
 
-**Foundation chain:** `context/vision.md` → `context/strategy.md` → `context/roadmap.md`
+**Foundation chain:** `Vision → Strategy → Metrics → Discovery → Roadmap`
 
 **Notes:**
-- discovery and metrics are parallel (both need strategy, independent of each other)
-- prioritization requires roadmap context to be meaningful
-- Check earlier foundations exist before building later ones.
+- STOP before Roadmap: must have metrics and opportunities first
+- A roadmap without opportunities is just a feature list
 
 ---
 
@@ -54,11 +53,11 @@ When working through the foundation chain, users need to know where they are.
 
 At each stage, state where user is:
 
-"We're in **Strategy** (step 2 of 4 in the foundation chain)"
+"We're in **Strategy** (step 2 of 5 in the foundation chain)"
 
 When helpful, show visual:
 ```
-Vision ✓ → [Strategy] → Metrics/Discovery → Roadmap
+Vision ✓ → [Strategy] → Metrics → Discovery → Roadmap
             └─ you are here
 ```
 

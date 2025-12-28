@@ -11,10 +11,18 @@ Plans and communicates product initiatives. Focuses on initiative sequencing, st
 
 ## Quick Start
 
-1. Check `context/strategy.md` exists (roadmap derives from strategy)
-2. Choose narrative mode based on audience
-3. Use Now-Next-Later format with appropriate confidence levels
-4. See `## Roadmap` in `resources.md` for knowledge (Core first, Additional as needed)
+**STOP. Before building a roadmap, check foundations exist:**
+1. Vision - `context/vision.md`
+2. Strategy - `context/strategy.md`
+3. Metrics - what outcomes matter (success measures defined)
+4. Opportunities - what problems/needs to address (from discovery)
+
+**If any missing, recommend building them first.** A roadmap without opportunities is just a feature list.
+
+Then:
+- Choose narrative mode based on audience
+- Use Now-Next-Later format with appropriate confidence levels
+- See `## Roadmap` in `resources.md` for knowledge
 
 ---
 
