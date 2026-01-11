@@ -49,3 +49,6 @@ archive/
 
 # External plugins (local copy, not part of this repo)
 superpowers/
+
+# GitHub Actions (repo-specific, not for end users)
+.github/
