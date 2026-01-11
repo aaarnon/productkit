@@ -120,6 +120,19 @@ All capabilities live in `skills/`. Read `skills/CLAUDE.md` for the full index.
 - **Claude Code**: Auto-discovers skills based on YAML description matching
 - **Cursor, Codex, Gemini CLI**: Read `skills/CLAUDE.md` for the index, load relevant `SKILL_NAME/SKILL.md` based on user intent
 
+### Co-Creation (Main Skills)
+
+**Main skills (Vision, Strategy, Metrics, Discovery, Roadmap) use co-creation by default.**
+
+Do NOT draft full deliverables after a few questions. Work through each element one at a time:
+
+1. **Explain** the element (1-2 sentences)
+2. **Ask** one focused question
+3. **Reflect** back what you heard
+4. **Confirm** before moving to next element
+
+Each skill has a `## Co-Creation Flow` section with the specific elements. Follow it.
+
 ### Accessing Knowledge
 
 **`resources.md` is the single source of truth.** Always check it first:

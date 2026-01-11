@@ -19,6 +19,53 @@ Defines the long-term purpose and direction of the product or business. Focuses 
 
 ---
 
+## Co-Creation Flow (Default)
+
+Build vision element by element with the user. This is the default mode.
+
+### Flow Overview
+
+```
+Element 1: Purpose      → Why does this exist?
+Element 2: Future State → Where do we want to be in 3-5 years?
+Element 3: Impact       → What change do we want to make?
+→ [Assemble vision statement]
+```
+
+### Element-by-Element Process
+
+**Element 1: Purpose**
+- Explain: "Purpose is why this product/business exists. Not what it does, but why it matters."
+- Ask: "Why does [product/company] exist? What problem or need drives it?"
+- Reflect back, confirm before continuing
+
+**Element 2: Future State**
+- Explain: "Future state is where you want to be in 3-5 years if everything goes right. Paint the picture."
+- Ask: "If everything goes well, what does the world look like in 3-5 years because of [product/company]?"
+- Reflect back, confirm before continuing
+
+**Element 3: Impact**
+- Explain: "Impact is the change you want to make. Who benefits and how?"
+- Ask: "What lasting change do you want to create? Who's better off and in what way?"
+- Reflect back, confirm before continuing
+
+### After All Elements
+
+1. Summarize what was captured across all three elements
+2. Ask: "Anything to adjust before I draft the vision statement?"
+3. Draft vision (1-2 paragraphs weaving purpose, future state, and impact)
+4. Run verification checks
+5. Save to `context/vision.md`
+
+### Skip Option
+
+If user says "just draft it" or "skip ahead":
+- Respect the request
+- Draft based on available context
+- Mark gaps with `[Needs input: ...]`
+
+---
+
 ## Core Purpose
 
 **Vision answers:**

@@ -18,6 +18,73 @@ Plans and communicates product initiatives. Focuses on initiative sequencing, st
 
 ---
 
+## Co-Creation Flow (Default)
+
+Build roadmap element by element with the user. This is the default mode.
+
+### Flow Overview
+
+```
+Element 1: Narrative Mode    → Who's the audience and what story?
+Element 2: Now Initiatives   → What's committed for this quarter?
+Element 3: Next Initiatives  → What's planned for next quarter?
+Element 4: Later Initiatives → What's directional for future?
+Element 5: Trade-offs        → What's explicitly NOT on the roadmap?
+Element 6: Sequencing        → Why this order?
+→ [Assemble roadmap]
+```
+
+### Element-by-Element Process
+
+**Element 1: Narrative Mode**
+- Explain: "Narrative mode is how you tell the roadmap story. Different audiences need different framings: Vision-Driven (for team inspiration), KPI-Driven (for execs), Problem-Driven (for product teams), etc."
+- Ask: "Who's the primary audience for this roadmap? What story do they need to hear?"
+- Reflect back, confirm before continuing
+
+**Element 2: Now Initiatives (Current Quarter)**
+- Explain: "Now is high confidence, committed work. These are the initiatives you're actively building this quarter."
+- Ask: "What initiatives are you committed to this quarter? What's actively being built?"
+- For each initiative mentioned, ask: "What's the narrative framing? Why this, why now?"
+- Reflect back, confirm before continuing
+
+**Element 3: Next Initiatives (Following Quarter)**
+- Explain: "Next is medium confidence, planned work. These are initiatives you intend to do but haven't committed to yet."
+- Ask: "What's planned for next quarter? What do you intend to work on after Now?"
+- For each initiative mentioned, ask: "What's the narrative framing?"
+- Reflect back, confirm before continuing
+
+**Element 4: Later Initiatives (Future)**
+- Explain: "Later is low confidence, directional. These are things you're thinking about but aren't planning in detail."
+- Ask: "What's on the horizon for the future? Directional themes, not commitments."
+- Reflect back, confirm before continuing
+
+**Element 5: Trade-offs**
+- Explain: "Trade-offs are what's NOT on the roadmap. Being explicit about what you're not doing is as important as what you are doing."
+- Ask: "What's explicitly NOT on this roadmap? What reasonable things are you choosing not to do?"
+- Reflect back, confirm before continuing
+
+**Element 6: Sequencing Rationale**
+- Explain: "Sequencing rationale is the 'why this order' explanation. It connects the roadmap to strategy and makes the logic clear."
+- Ask: "Why this sequence? What's the logic that drives Now before Next before Later?"
+- Reflect back, confirm before continuing
+
+### After All Elements
+
+1. Summarize the roadmap (narrative mode, Now/Next/Later, trade-offs, sequencing)
+2. Ask: "Anything to adjust before I assemble the roadmap?"
+3. Assemble full roadmap document
+4. Run verification checks
+5. Save to `outputs/roadmap-[date].md`
+
+### Skip Option
+
+If user says "just draft it" or "skip ahead":
+- Respect the request
+- Draft based on available context
+- Mark gaps with `[Needs input: ...]`
+
+---
+
 ## Core Purpose
 
 **Roadmap answers:**

@@ -18,6 +18,97 @@ Validates problems and maps opportunities before committing to solutions. Focuse
 
 ---
 
+## Co-Creation Flow (Default)
+
+Build validated opportunity element by element with the user. This is the default mode.
+
+### Flow Overview
+
+```
+Section 1: Opportunity Framing (2 elements)
+  → Opportunity Statement → Problem Evidence
+  → [Confirm section before continuing]
+
+Section 2: Risk Assessment (4 elements)
+  → Value Risk → Usability Risk → Feasibility Risk → Business Viability Risk
+  → [Confirm section before continuing]
+
+Section 3: Decision (2 elements)
+  → Confidence Level → Recommendation
+  → [Assemble validated opportunity]
+```
+
+### Section 1: Opportunity Framing
+
+**Element 1: Opportunity Statement**
+- Explain: "The opportunity statement describes what users will be able to achieve. Frame it as a capability, not a feature."
+- Ask: "What will users be able to do or achieve? (Not 'add a dashboard' but 'users can track their progress at a glance.')"
+- Reflect back, confirm before continuing
+
+**Element 2: Problem Evidence**
+- Explain: "Problem evidence is the research, data, or feedback that supports this opportunity. What makes you believe this is real?"
+- Ask: "What evidence do you have that this is a real problem worth solving? User interviews, data, support tickets, etc."
+- Reflect back, confirm before continuing
+
+**Section Checkpoint:**
+- Summarize the opportunity framing
+- Ask: "Anything to adjust before we assess the risks?"
+
+### Section 2: Risk Assessment
+
+**Element 3: Value Risk**
+- Explain: "Value risk is whether users actually want this. Will they care enough to use it?"
+- Ask: "How confident are you that users actually want this? What evidence supports or contradicts that? (Low/Medium/High risk)"
+- Reflect back, confirm before continuing
+
+**Element 4: Usability Risk**
+- Explain: "Usability risk is whether users can figure out how to use it. Will they understand it?"
+- Ask: "How confident are you that users will understand how to use this? Any complexity concerns? (Low/Medium/High risk)"
+- Reflect back, confirm before continuing
+
+**Element 5: Feasibility Risk**
+- Explain: "Feasibility risk is whether you can actually build it. Technical constraints, dependencies, unknowns."
+- Ask: "How confident are you that you can build this? Any technical challenges or unknowns? (Low/Medium/High risk)"
+- Reflect back, confirm before continuing
+
+**Element 6: Business Viability Risk**
+- Explain: "Business viability risk is whether this makes sense for the business. Alignment with strategy, revenue impact, resource cost."
+- Ask: "How confident are you this is good for the business? Does it align with strategy and justify the investment? (Low/Medium/High risk)"
+- Reflect back, confirm before continuing
+
+**Section Checkpoint:**
+- Summarize all four risks
+- Ask: "Anything to adjust before we determine confidence and recommendation?"
+
+### Section 3: Decision
+
+**Element 7: Confidence Level**
+- Explain: "Confidence level is your overall certainty about this opportunity. Based on evidence quality and risk levels."
+- Ask: "Given everything we've discussed, how confident are you overall? (Low/Medium/High) Why?"
+- Reflect back, confirm before continuing
+
+**Element 8: Recommendation**
+- Explain: "Recommendation is the action: Backlog (build it), Parking Lot (needs more validation), or Bin (don't pursue)."
+- Ask: "Based on confidence and risks, what's the recommendation? Backlog, Parking Lot, or Bin?"
+- Reflect back, confirm before continuing
+
+### After All Elements
+
+1. Summarize the validated opportunity (statement, evidence, risks, confidence, recommendation)
+2. Ask: "Anything to adjust before I assemble the opportunity document?"
+3. Assemble full validated opportunity
+4. Run verification checks
+5. Save to `context/opportunities.md`
+
+### Skip Option
+
+If user says "just draft it" or "skip ahead":
+- Respect the request
+- Draft based on available context
+- Mark gaps with `[Needs input: ...]`
+
+---
+
 ## Core Purpose
 
 **Discovery answers:**

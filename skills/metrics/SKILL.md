@@ -19,6 +19,71 @@ Defines and organizes success measurement. Focuses on connecting metrics to outc
 
 ---
 
+## Co-Creation Flow (Default)
+
+Build metrics framework element by element with the user. This is the default mode.
+
+### Flow Overview
+
+```
+Element 1: Success Metric     → What outcome defines success?
+Element 2: Leading Indicators → What predicts that outcome?
+Element 3: Lagging Outcomes   → What business results does this ladder to?
+Element 4: Baseline           → Where are we today?
+Element 5: Target             → Where do we want to be?
+Element 6: Tracking Method    → How will we measure this?
+→ [Assemble metrics framework]
+```
+
+### Element-by-Element Process
+
+**Element 1: Success Metric**
+- Explain: "Success Metric is the primary outcome that tells you this is working. One metric that matters most."
+- Ask: "What single metric would tell you this initiative is succeeding? What outcome are you trying to achieve?"
+- Reflect back, confirm before continuing
+
+**Element 2: Leading Indicators**
+- Explain: "Leading indicators predict your success metric before it moves. They're early signals you're on track."
+- Ask: "What early signals would tell you the success metric will move? What happens first before the outcome?"
+- Reflect back, confirm before continuing
+
+**Element 3: Lagging Outcomes**
+- Explain: "Lagging outcomes are the business results this ladders up to. Revenue, retention, growth."
+- Ask: "What business outcome does this success metric ultimately drive? How does it connect to the business?"
+- Reflect back, confirm before continuing
+
+**Element 4: Baseline**
+- Explain: "Baseline is where you are today. You need to know the starting point to measure progress."
+- Ask: "Where is this metric today? What's your current state? (Estimate if you don't have exact data.)"
+- Reflect back, confirm before continuing
+
+**Element 5: Target**
+- Explain: "Target is where you want to be. Ambitious but achievable, with a timeframe."
+- Ask: "Where do you want this metric to be, and by when? What would success look like?"
+- Reflect back, confirm before continuing
+
+**Element 6: Tracking Method**
+- Explain: "Tracking method is how you'll actually measure this. Dashboards, tools, manual checks."
+- Ask: "How will you track this metric? What tool or process will you use to measure it?"
+- Reflect back, confirm before continuing
+
+### After All Elements
+
+1. Summarize the metrics framework (success metric, leading indicators, lagging outcomes, measurement plan)
+2. Ask: "Anything to adjust before I assemble the metrics framework?"
+3. Assemble full metrics document
+4. Run verification checks
+5. Save to `context/metrics.md`
+
+### Skip Option
+
+If user says "just draft it" or "skip ahead":
+- Respect the request
+- Draft based on available context
+- Mark gaps with `[Needs input: ...]`
+
+---
+
 ## Core Purpose
 
 **Metrics answers:**

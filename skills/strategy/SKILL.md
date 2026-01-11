@@ -18,6 +18,147 @@ Defines how to win in the market. Works through three interconnected patterns: w
 
 ---
 
+## Co-Creation Flow (Default)
+
+Build strategy element by element with the user. This is the default mode.
+
+### Flow Overview
+
+```
+Section 1: Strategic Narrative (6 elements)
+  → Vision → North Star → Market Reality → Hypothesis → Urgency → Conviction
+  → [Confirm section before continuing]
+
+Section 2: Playing Field (3 elements)
+  → Audiences → Jobs → Alternatives
+  → [Confirm section before continuing]
+
+Section 3: Winning Moves (5 elements)
+  → Segments → Value Props → Channels → Differentiators → Trade-offs
+  → [Confirm section before continuing]
+
+Section 4: Risks & Validation
+  → [Assemble full strategy document]
+```
+
+### Working Through Each Element
+
+For each element:
+1. **Explain** - What this element is and why it matters (1-2 sentences)
+2. **Ask** - One focused question to gather input
+3. **Reflect** - Restate what you heard, ask if it's right
+4. **Confirm** - Get explicit confirmation before moving to next element
+
+### Section 1: Strategic Narrative
+
+**Element 1: Vision (reference)**
+- Explain: "Let's anchor the strategy in your vision. This connects where you're going to how you'll get there."
+- Ask: "Looking at your vision, what's the key aspiration we're building strategy around?"
+- Reflect back, confirm before continuing
+
+**Element 2: North Star**
+- Explain: "North Star is the 1-3 metrics that define winning. If these move, you're succeeding."
+- Ask: "What metric(s) would tell you the strategy is working? What does 'winning' look like in numbers?"
+- Reflect back, confirm before continuing
+
+**Element 3: Market Reality**
+- Explain: "Market Reality is what's happening in the market that creates your opportunity. Facts, not opinions."
+- Ask: "What's happening in your market right now that creates an opening for you?"
+- Reflect back, confirm before continuing
+
+**Element 4: Hypothesis**
+- Explain: "Your hypothesis is what you believe that others don't. This is your contrarian bet."
+- Ask: "What do you believe about this market or problem that most competitors don't see or disagree with?"
+- Reflect back, confirm before continuing
+
+**Element 5: Urgency**
+- Explain: "Urgency is why now. What window exists and why must you act in this timeframe?"
+- Ask: "Why is now the right time? What happens if you wait 12 months?"
+- Reflect back, confirm before continuing
+
+**Element 6: Conviction**
+- Explain: "Conviction is why customers will choose you over alternatives. Your reason to win."
+- Ask: "Why will customers choose you instead of the alternatives? What makes you the right choice?"
+- Reflect back, confirm before continuing
+
+**Section Checkpoint:**
+- Summarize Strategic Narrative (2-3 sentences)
+- Show all 6 elements captured
+- Ask: "Anything to adjust before we move to Playing Field?"
+
+### Section 2: Playing Field
+
+**Element 7: Audiences**
+- Explain: "Audiences are who you're building for. Be specific about the people, not just companies."
+- Ask: "Who specifically are you building for? What defines them?"
+- Reflect back, confirm before continuing
+
+**Element 8: Jobs**
+- Explain: "Jobs are the progress your audience is trying to make. What they're hiring your product to do."
+- Ask: "What progress are these people trying to make? What job are they hiring you for?"
+- Reflect back, confirm before continuing
+
+**Element 9: Alternatives**
+- Explain: "Alternatives are what you're compared against. Not just competitors, but any way they solve this today."
+- Ask: "What do people use today instead of you? Include doing nothing, spreadsheets, competitors, workarounds."
+- Reflect back, confirm before continuing
+
+**Section Checkpoint:**
+- Summarize Playing Field (2-3 sentences)
+- Show all 3 elements captured
+- Ask: "Anything to adjust before we move to Winning Moves?"
+
+### Section 3: Winning Moves
+
+**Element 10: Segments**
+- Explain: "Segments are which customers get priority. You can't serve everyone equally."
+- Ask: "Which customer segments are highest priority? Who do you focus on first?"
+- Reflect back, confirm before continuing
+
+**Element 11: Value Props**
+- Explain: "Value Props are the specific value you deliver to your priority segments."
+- Ask: "What value do you deliver to these segments? What do they get from you?"
+- Reflect back, confirm before continuing
+
+**Element 12: Channels**
+- Explain: "Channels are how you reach your customers. How they discover and engage with you."
+- Ask: "How do customers find you and how do you reach them?"
+- Reflect back, confirm before continuing
+
+**Element 13: Differentiators**
+- Explain: "Differentiators are what makes you hard to copy. Your sustainable advantage."
+- Ask: "What makes you hard to copy? What advantage compounds over time?"
+- Reflect back, confirm before continuing
+
+**Element 14: Trade-offs**
+- Explain: "Trade-offs are what you're NOT doing. Strategy is as much about saying no as saying yes."
+- Ask: "What are you explicitly NOT doing? What would be reasonable to do but you're choosing not to?"
+- Reflect back, confirm before continuing
+
+**Section Checkpoint:**
+- Summarize Winning Moves (2-3 sentences)
+- Show all 5 elements captured
+- Ask: "Anything to adjust before we finalize the strategy?"
+
+### Section 4: Risks & Assembly
+
+After all elements confirmed:
+1. Identify 3-4 key risks based on the strategy
+2. Present risks and ask for mitigation ideas
+3. Run the "Does this help us say NO?" validation
+4. Assemble full strategy document
+5. Run verification checks
+6. Save to `context/strategy.md`
+
+### Skip Option
+
+If user says "just draft it" or "skip ahead":
+- Respect the request
+- Draft remaining elements based on available context
+- Mark gaps with `[Needs input: ...]`
+
+---
+
 ## Core Purpose
 
 **Strategy answers:**
