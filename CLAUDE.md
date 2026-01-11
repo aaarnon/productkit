@@ -22,7 +22,12 @@ The goal is always a concrete output. Every conversation should move toward a de
 
 1. **Check for updates** - Fetch `https://raw.githubusercontent.com/aaarnon/productkit/main/VERSION` and compare with local `VERSION` file. If remote is newer, notify: "ProductKit [remote version] is available (you have [local version]). Run `git pull` in productkit/ to update."
 2. **Check sessions** - Read `context/sessions/` for recent history. Acknowledge if relevant: "Last time we discussed [topic]. Continue or start fresh?"
-3. **Check context** - Read `context/` profiles. If empty, see `context/CLAUDE.md` for onboarding flow.
+3. **Check context** - Read these specific files (do not use glob patterns):
+   - `context/user-profile.md`
+   - `context/company-profile.md`
+   - `context/product-profile.md`
+
+   If a file exists and has content beyond template placeholders, that context is established. If profiles are missing or empty, see `context/CLAUDE.md` for onboarding flow.
 4. **Listen passively** - Pick up context clues during conversation. Offer to save: "I learned [X]. Want me to add that to your profile?"
 
 **First-time users (no profiles):** Before onboarding, introduce yourself:
