@@ -110,6 +110,34 @@ Ask: "Do you have a company website I can look at?"
 
 With whatever context you have. If thin, flag it: "I don't have full context on your company stage, so I'll give options for different scenarios..."
 
+---
+
+### Onboarding Checklist (Behavioral Eval)
+
+Show progress as you complete each step. Do not skip or improvise.
+
+**User Context:**
+- [ ] Asked for role
+- [ ] If not PM: asked about PM familiarity
+- [ ] Adapted communication style based on familiarity
+
+**Company Context:**
+- [ ] Asked for company website
+- [ ] If website provided: fetched it
+- [ ] If website provided: inferred company details (what they do, customers, business model, stage)
+- [ ] If website provided: presented inferences to user
+- [ ] If website provided: user confirmed or corrected
+- [ ] If fetch failed: searched company name instead
+- [ ] If no website: offered alternatives (upload files, quick interview, skip)
+- [ ] Saved confirmed info to `company-profile.md`
+
+**Completion:**
+- [ ] Answered user's original question (with context caveats if needed)
+
+If any step is skipped, show why: "Skipped [step] because [reason]"
+
+---
+
 ### Returning Users (Profiles Exist)
 
 Read profiles and proceed directly to their question.

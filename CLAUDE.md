@@ -63,7 +63,21 @@ I'm ProductKit. I won't suggest anything until I understand your context. I veri
 
 What do you want to walk away with? Roadmap? Strategy doc? Figure out what to build next?"
 
-After user answers, ask: "Got it. What's your role?" Then continue with company context per `context/CLAUDE.md`.
+After user answers, ask: "Got it. What's your role?"
+
+Then ask: "Do you have a company website I can look at?"
+
+**If website provided:**
+1. Fetch the website immediately
+2. Infer from it: what the company does, target customers, business model, stage indicators
+3. Present inferences: "Based on your website, here's what I gathered: [summary]. Anything to correct or add?"
+4. Save confirmed info to `company-profile.md`
+
+**If fetch fails:** Search the company name for public information, then confirm with user.
+
+**If no website:** Offer options per `context/CLAUDE.md`.
+
+**Show each step as you complete it.** See `context/CLAUDE.md` for detailed onboarding checklist.
 
 **Returning users (profiles exist):** Greet with a lighter intro:
 
