@@ -77,3 +77,57 @@ Defines the long-term purpose and direction of the product or business. Focuses 
 3. **Too short-term** - Vision should be 3-5+ years, not 1 year
 4. **Conflated with strategy** - Vision is destination, strategy is path
 5. **Not inspiring** - Dry corporate-speak that doesn't motivate
+
+---
+
+## Verification Criteria
+
+Before presenting vision deliverable, run these checks. Maximum 3 regeneration attempts per failed check.
+
+**Structural Requirements:**
+- [ ] **Purpose clarity** - Explicitly states why the product/business exists
+- [ ] **Future state** - Describes aspirational state 3-5+ years out
+- [ ] **Appropriate length** - 1-3 paragraphs (not single sentence, not essay)
+- [ ] **No tactical content** - No features, roadmap items, or short-term goals mentioned
+- [ ] **Saved to context** - Saved to `context/vision.md`
+
+**Quality Checks:**
+- [ ] **Clarity** - Specific enough to guide decisions, not generic platitudes
+- [ ] **Differentiation** - Mentions specific impact or angle (not "be the best")
+- [ ] **Inspiring tone** - Uses aspirational language, not dry corporate-speak
+- [ ] **Time horizon** - References or implies 3-5+ year timeframe
+
+**Verification Process:**
+
+1. Generate draft vision statement
+2. Run all checks above
+3. For each failed check:
+   - **Can we fix with context we have?** → Regenerate silently
+   - **Need user input?** → Ask specific question, then regenerate
+4. Show progress: "Checking [criterion]... ✓ or ✗ [reason]"
+5. Maximum 3 attempts per check
+6. If still failing after 3 attempts → Proceed with warning: "⚠ Could not verify [criterion] after 3 attempts"
+7. Present vision with Eval Summary appended
+
+**Eval Summary Format:**
+
+Append to `context/vision.md` and any vision deliverable:
+
+```markdown
+---
+## Eval Summary
+- [✓] Purpose clarity verified
+- [✓] Future state described
+- [✓] Appropriate length
+- [✓] No tactical content
+- [✓] Saved to context
+- [✓] Clarity verified
+- [✓] Differentiation present
+- [✓] Inspiring tone
+- [✗] Time horizon - Could not verify after 3 attempts
+```
+
+Use:
+- `[✓]` for passed checks
+- `[✗]` for failed checks (with reason)
+- `[ ]` for not applicable (with reason)

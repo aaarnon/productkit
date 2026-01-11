@@ -1,7 +1,9 @@
 # Writing Style Guide
 
-**Applies to:** Documentation outputs (one-pagers, roadmaps, OKRs, strategy docs)
-**Does NOT apply to:** Conversational interactions (adapt to user's tone instead)
+**Applies to:** Anything saved to `outputs/` (formal deliverables)
+**Does NOT apply to:**
+- Conversational interactions (adapt to user's tone)
+- `context/` files (internal memory, not deliverables)
 
 ---
 

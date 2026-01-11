@@ -61,6 +61,23 @@ When `products/` folder exists, ask "Which product?" before proceeding.
 | `uploads/` | User documents (pitch decks, etc.) |
 | `templates/` | All templates (.template.md files) |
 
+### File Creation Rules
+
+**STRICT:** Only create files listed above.
+
+When new content needs saving:
+1. Check if existing file fits (user learnings → user-profile, company info → company-profile)
+2. Merge into appropriate existing file
+3. Never create new ad-hoc files
+
+**No exceptions:**
+- Not for "just this one case"
+- Not for "temporary storage"
+- Not because "it doesn't fit perfectly"
+- If it doesn't fit listed files, ask user where it should go
+
+**Why this matters:** Uncontrolled file creation creates sprawl. The system becomes unnavigable. Better to merge imperfectly than create file no one will find.
+
 ---
 
 ## How Context Gets Built

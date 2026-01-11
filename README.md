@@ -16,6 +16,7 @@ ProductKit solves this by:
 1. **Building context first** - Company stage, business model, user profile
 2. **Routing to specialists** - Domain-expert agents for strategy, discovery, metrics, etc.
 3. **Producing deliverables** - Not just advice, but actual artifacts: roadmaps, OKRs, one-pagers, strategy docs
+4. **Verifying quality** - Every deliverable runs through explicit checks before delivery (inspired by engineering test patterns)
 
 ---
 
@@ -84,6 +85,20 @@ directory. Ensure the JSON contains a "context" object with a "fileName" array s
 
 ---
 
+## Updates
+
+ProductKit checks for updates automatically at the start of each session and notifies you if a new version is available.
+
+To update:
+
+```bash
+cd productkit && git pull
+```
+
+Your data in `context/` and `outputs/` stays untouched.
+
+---
+
 ## How It Works
 
 **Skills** are specialized capabilities that handle different PM domains (strategy, discovery, metrics, etc.). Each skill knows its domain deeply and produces specific deliverables.
@@ -112,10 +127,29 @@ directory. Ensure the JSON contains a "context" object with a "fileName" array s
 │   └─────────────┘                                              │
 │        │                                                       │
 │        ↓                                                       │
+│   ┌─────────────┐                                              │
+│   │ Verification│ - Checks quality criteria                    │
+│   │  (Auto)     │ - Iterates until standards met               │
+│   │             │ - Shows transparent progress                 │
+│   └─────────────┘                                              │
+│        │                                                       │
+│        ↓                                                       │
 │   Deliverable (roadmap, one-pager, OKRs, strategy doc, etc.)   │
+│   + Eval Summary (what passed, what needed work)               │
 │                                                                │
 └────────────────────────────────────────────────────────────────┘
 ```
+
+### Quality Verification
+
+Unlike generic AI that says "here's your roadmap" and stops, ProductKit verifies deliverables before presenting them.
+
+**How verification works:**
+1. After you approve ("Ready to create the roadmap?"), ProductKit generates a draft
+2. Runs verification checks automatically (structural requirements + quality standards)
+3. Failed checks trigger regeneration (asks for your input if needed)
+4. You see transparent progress: "Checking metric linkage... ✗ Missing. Regenerating..."
+5. Delivers final output with an Eval Summary showing all checks
 
 
 

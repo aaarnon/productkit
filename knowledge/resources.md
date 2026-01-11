@@ -17,6 +17,7 @@ Skill-based index. Go to your skill section, read Core first, then Additional as
 ## Strategy
 
 ### Core
+- `strategy/product-strategy-framework-ant-murphy.md`
 - `strategy/product-strategy-gibson-biddle.md`
 - `strategy/decisive-strategy-say-no.md`
 - `strategy/four-fits-growth-framework-balfour.md`
@@ -95,6 +96,7 @@ Skill-based index. Go to your skill section, read Core first, then Additional as
 - `discovery/opportunity-solution-trees-teresa-torres.md`
 - `discovery/story-based-interviews-teresa-torres.md`
 - `discovery/continuous-interviewing-teresa-torres.md`
+- `discovery/explore-vs-exploit-ant-murphy.md`
 
 ### Additional
 - `discovery/20-lessons-pmf-first-round.md`
@@ -433,6 +435,7 @@ Full article details for browsing and searching. File paths are relative to `kno
 
 | Article | File | Key Concepts | Author |
 |---------|------|--------------|--------|
+| Product Strategy Framework | `strategy/product-strategy-framework-ant-murphy.md` | 5 Ingredients (Boundaries/Aligned/Informed/Measurable/Detailed), 4-Step Process (Inputs/Synthesis/Modeling/Packaging), Opposite of Stupid Test, Strategic Narrative = Data + Belief, Moats | Ant Murphy |
 | [Product Strategy Frameworks](https://askgib.substack.com/p/ask-gib-a-summary-of-my-product-strategy) | `strategy/product-strategy-gibson-biddle.md` | DHM Model, GEM Model, GLEe Vision, SMT Framework, 8 Moats | Gibson Biddle |
 | [Decisive Strategy](https://blog.ravi-mehta.com/p/great-strategy-helps-you-focus) | `strategy/decisive-strategy-say-no.md` | Decisive vs Alibi Progress, Permission to Say No, Strategy-OKRs-Discovery Cycle | Ravi Mehta, Tim Herbig |
 | [When NOT to Use Roadmap](https://www.romanpichler.com/blog/when-you-should-not-use-a-product-roadmap/) | `strategy/when-not-to-use-roadmap-roman-pichler.md` | Roadmap Anti-Patterns, Strategy Validation Prerequisites | Roman Pichler |
@@ -476,6 +479,7 @@ Full article details for browsing and searching. File paths are relative to `kno
 | [Continuous Interviewing](https://www.producttalk.org/continuous-interviewing/) | `discovery/continuous-interviewing-teresa-torres.md` | Weekly Cadence, Automated Recruitment | Teresa Torres |
 | [Interview Snapshot](https://www.producttalk.org/2022/06/interview-snapshot/) | `discovery/interview-snapshot-teresa-torres.md` | One-Page Synthesis, Experience Mapping | Teresa Torres |
 | [No Time for Discovery](https://www.producttalk.org/no-time-for-discovery/) | `discovery/no-time-for-discovery-teresa-torres.md` | Minimum Viable Discovery, 7 Obstacles | Teresa Torres |
+| [Explore vs Exploit](https://youtube.com/@productpathways) | `discovery/explore-vs-exploit-ant-murphy.md` | Explore/Exploit Spectrum, Bee Analogy, Team Structures, 70/30 Split | Ant Murphy |
 | Opportunities Backlog Workflow | `discovery/opportunities-backlog-workflow.md` | Backlog/Parking Lot/Bin Triaging | Arnon |
 
 ## Roadmap Articles
@@ -526,7 +530,7 @@ Full article details for browsing and searching. File paths are relative to `kno
 | Author | Expertise | Website |
 |--------|-----------|---------|
 | Adam Nash | Product Planning, Feature Buckets | adamnash.blog |
-| Ant Murphy | Roadmapping, OKRs, Prioritization | antmurphy.me |
+| Ant Murphy | Roadmapping, OKRs, Prioritization, Discovery (Explore/Exploit) | antmurphy.me |
 | April Dunford | Product Positioning | aprildunford.com |
 | Brian Balfour | Growth Strategy, Four Fits | reforge.com |
 | Ed Biden | Discovery, Risk Management, Impact Models | hustlebadger.com |
