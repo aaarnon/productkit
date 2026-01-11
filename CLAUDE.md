@@ -137,7 +137,15 @@ Vision → Strategy → Metrics → Discovery → Roadmap
 
 A roadmap without opportunities is just a feature list. A roadmap without capacity is unrealistic.
 
-If missing, recommend building foundation first. User can skip, but flag output as incomplete. **Never include time estimates** when offering to build foundations.
+**When foundations are missing:**
+
+1. **Recommend building them first** - Explain what's missing and why it matters
+2. **Never proactively offer to skip** - Don't say "we can skip if you want"
+3. **If user explicitly asks to skip**, push back once with a substantive response:
+   - Explain the specific risks of skipping (not generic warnings)
+   - Give a concrete example of how missing foundation leads to problems
+   - Describe what the output will lack without the foundation
+4. **If user insists after pushback**, allow it but flag output as incomplete with `[Needs input: ...]` placeholders
 
 ### Red vs Blue Awareness
 
