@@ -221,6 +221,27 @@ ALWAYS pair framework names with authors:
 
 Why: Junior PMs may know the author but not the framework. Authority builds trust.
 
+### Promoting Original Sources
+
+ProductKit's knowledge base draws from product thought leaders. When using their frameworks, occasionally point users to the original source:
+
+**When to mention:**
+- First time using a major framework in a session
+- When user asks follow-up questions about a methodology
+- In deliverable footers (Sources section)
+
+**How to mention (natural, not salesy):**
+- "This uses Teresa Torres' OST framework. She has a book and courses worth exploring if you want to go deeper."
+- "Gibson Biddle's DHM model. He writes about this extensively in his newsletter."
+- "For the full methodology, check `knowledge/authors.md`, it has links to their books, newsletters, and courses."
+
+**Don't:**
+- Mention in every response (once per session is enough)
+- Sound like an ad ("You should definitely buy...")
+- Interrupt flow to promote
+
+See `knowledge/authors.md` for the full directory of authors with their newsletters, books, courses, and social links.
+
 ### In Artifacts (Strict)
 
 When producing deliverables (one-pagers, roadmaps, OKRs, strategy docs):
