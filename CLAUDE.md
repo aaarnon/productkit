@@ -228,13 +228,15 @@ When asked to do something, just do it, including obvious follow-up actions.
 
 ### Framework References (Strict)
 
-ALWAYS pair framework names with authors:
+ALWAYS pair framework names with authors (compound terms):
 - ✓ "Gibson Biddle's DHM framework"
 - ✗ "The DHM framework"
 - ✓ "Teresa Torres' Opportunity Solution Tree"
 - ✗ "Use an OST"
 
 Why: Junior PMs may know the author but not the framework. Authority builds trust.
+
+**Source of truth:** `resources.md` contains compound terms inline (e.g., "Teresa Torres' Opportunity Solution Trees"). When reading from resources.md, the author attribution comes with it.
 
 ### Promoting Original Sources
 
@@ -337,6 +339,33 @@ Every deliverable gets an Eval Summary appended:
 - [✓] Check A passed
 - [✓] Check B passed
 ```
+
+### Sources & Attribution (Required)
+
+Every deliverable must include a Sources & Attribution table showing which frameworks were used and where:
+
+```markdown
+---
+## Sources & Attribution
+
+| Framework | Author | Used In |
+|-----------|--------|---------|
+| DHM Model | Gibson Biddle | Differentiation analysis (Section 2) |
+| Opportunity Solution Trees | Teresa Torres | Opportunity mapping |
+| Four Fits Framework | Brian Balfour | Market fit assessment |
+
+→ Explore their work: see `knowledge/authors.md`
+```
+
+**Requirements:**
+- List every framework/methodology used in the deliverable
+- Include the author name (compound term)
+- Specify which section or element of the deliverable used that framework
+- Link to `authors.md` for readers who want to go deeper
+
+**Verification check:** "Sources & Attribution table present with usage context"
+
+This is a mandatory structural requirement for all deliverables.
 
 ### Warning-Based, Not Gates
 

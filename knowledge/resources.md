@@ -9,217 +9,219 @@ Skill-based index. Go to your skill section, read Core first, then Additional as
 ## Vision
 
 ### Core
-- `vision/how-to-create-product-vision-khan.md`
-- `vision/crafting-compelling-product-vision-atawodi.md`
+- `vision/how-to-create-product-vision-khan.md` - Saeed Khan's Vision Stack
+- `vision/crafting-compelling-product-vision-atawodi.md` - Ebi Atawodi's Vision Storytelling
 
 ---
 
 ## Strategy
 
 ### Core
-- `strategy/product-strategy-framework-ant-murphy.md`
-- `strategy/product-strategy-gibson-biddle.md`
-- `strategy/decisive-strategy-say-no.md`
-- `strategy/four-fits-growth-framework-balfour.md`
-- `strategy/four-types-product-work-reforge.md`
-- `strategy/product-positioning-april-dunford.md`
+- `strategy/product-strategy-framework-ant-murphy.md` - Ant Murphy's Product Strategy Framework
+- `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
+- `strategy/decisive-strategy-say-no.md` - Ravi Mehta's Decisive Strategy
+- `strategy/four-fits-growth-framework-balfour.md` - Brian Balfour's Four Fits Framework
+- `strategy/four-types-product-work-reforge.md` - Casey Winters' Four Types of Product Work
+- `strategy/product-positioning-april-dunford.md` - April Dunford's Positioning Framework
 
 ### Additional
-- `strategy/when-not-to-use-roadmap-roman-pichler.md`
-- `strategy/product-market-fit-hustle-badger.md`
-- `strategy/be-great-product-leader-adam-nash.md`
-- `strategy/going-multi-product-first-round.md`
-- `strategy/price-before-product-first-round.md`
-- `strategy/company-to-product-strategy-notes.md`
-- `strategy/product-strategy-one-pager-template.md`
-- `strategy/product-bundling-a16z.md`
-- `strategy/b2b-vs-b2c-product-strategy-herbig.md`
-- `strategy/product-strategy-patterns-herbig.md`
-- `strategy/product-strategy-choices-herbig.md`
-- `strategy/product-strategy-foundations-herbig.md`
-- `alignment/quarterly-product-strategy-meeting-biddle.md`
-- `alignment/data-informed-product-cycle-cutler.md`
-- `alignment/product-operating-model-teresa-torres.md`
-- `alignment/translate-business-impact-to-roadmap-arora.md`
-- `alignment/how-to-use-product-alignment-doc.md`
-- `alignment/great-one-pagers-john-cutler.md`
-- `alignment/product-management-is-business-management.md`
-- `alignment/os-discovery-playbook-cutler.md`
-- `alignment/product-team-stages-first-round.md`
-- `prioritization/high-velocity-decision-making.md`
-- `prioritization/can-do-vs-should-do-cutler.md`
-- `prioritization/prioritization-strategy.md`
-- `prioritization/rice-framework-critique.md`
-- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md`
-- `discovery/20-lessons-pmf-first-round.md`
-- `discovery/measure-pmf-first-round.md`
-- `discovery/product-discovery-herbig.md`
-- `discovery/how-much-discovery-is-enough.md`
-- `discovery/prioritizing-opportunities-teresa-torres.md`
+- `strategy/when-not-to-use-roadmap-roman-pichler.md` - Roman Pichler's Roadmap Anti-Patterns
+- `strategy/product-market-fit-hustle-badger.md` - Ed Biden's PMF Dimensions
+- `strategy/be-great-product-leader-adam-nash.md` - Adam Nash's Product Leadership
+- `strategy/going-multi-product-first-round.md` - First Round's Multi-Product Tactics
+- `strategy/price-before-product-first-round.md` - First Round's Pricing Strategy
+- `strategy/company-to-product-strategy-notes.md` - Company to Product Strategy Flow
+- `strategy/product-strategy-one-pager-template.md` - Strategy One-Pager Template
+- `strategy/product-bundling-a16z.md` - a16z's Product Bundling
+- `strategy/b2b-vs-b2c-product-strategy-herbig.md` - Tim Herbig's B2B vs B2C Strategy
+- `strategy/product-strategy-patterns-herbig.md` - Tim Herbig's Strategy Patterns
+- `strategy/product-strategy-choices-herbig.md` - Tim Herbig's Strategy Choices
+- `strategy/product-strategy-foundations-herbig.md` - Tim Herbig's Strategy Foundations
+- `alignment/quarterly-product-strategy-meeting-biddle.md` - Gibson Biddle's Quarterly Strategy Meeting
+- `alignment/data-informed-product-cycle-cutler.md` - John Cutler's Data-Informed Cycle
+- `alignment/product-operating-model-teresa-torres.md` - Teresa Torres' Product Operating Model
+- `alignment/translate-business-impact-to-roadmap-arora.md` - Sid Arora's Impact-to-Roadmap Framework
+- `alignment/how-to-use-product-alignment-doc.md` - Product Alignment Doc Guide
+- `alignment/great-one-pagers-john-cutler.md` - John Cutler's Great One-Pagers
+- `alignment/product-management-is-business-management.md` - Saeed Khan's PM as Business Management
+- `alignment/os-discovery-playbook-cutler.md` - John Cutler's OS Discovery Playbook
+- `alignment/product-team-stages-first-round.md` - First Round's Product Team Stages
+- `prioritization/high-velocity-decision-making.md` - Ed Biden's High-Velocity Decisions
+- `prioritization/can-do-vs-should-do-cutler.md` - John Cutler's Can Do vs Should Do
+- `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
+- `prioritization/rice-framework-critique.md` - RICE Framework Critique
+- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md` - Lenny Rachitsky's Strategic Pyramid
+- `discovery/20-lessons-pmf-first-round.md` - First Round's 20 PMF Lessons
+- `discovery/measure-pmf-first-round.md` - First Round's PMF Measurement
+- `discovery/product-discovery-herbig.md` - Tim Herbig's Product Discovery
+- `discovery/how-much-discovery-is-enough.md` - Ed Biden's Discovery Confidence Scale
+- `discovery/prioritizing-opportunities-teresa-torres.md` - Teresa Torres' Opportunity Prioritization
 
 ---
 
 ## Metrics
 
 ### Core
-- `metrics/okrs-product-management-herbig.md`
-- `metrics/escape-okr-theatre-ant-murphy.md`
-- `metrics/impact-model-roadmap-ed-biden.md`
-- `metrics/choosing-success-metrics-hustle-badger.md`
-- `metrics/revenue-retention-metrics-hustle-badger.md`
-- `metrics/leading-product-metrics-hustle-badger.md`
+- `metrics/okrs-product-management-herbig.md` - Tim Herbig's OKRs for Product Management
+- `metrics/escape-okr-theatre-ant-murphy.md` - Ant Murphy's Escape OKR Theatre
+- `metrics/impact-model-roadmap-ed-biden.md` - Ed Biden's Impact Model
+- `metrics/choosing-success-metrics-hustle-badger.md` - Ed Biden's Success Metrics Framework
+- `metrics/revenue-retention-metrics-hustle-badger.md` - Susannah Belcher's Revenue & Retention Metrics
+- `metrics/leading-product-metrics-hustle-badger.md` - Susannah Belcher's Leading Metrics
 
 ### Additional
-- `strategy/product-strategy-gibson-biddle.md`
-- `strategy/four-fits-growth-framework-balfour.md`
-- `strategy/four-types-product-work-reforge.md`
-- `strategy/product-market-fit-hustle-badger.md`
-- `strategy/be-great-product-leader-adam-nash.md`
-- `strategy/product-bundling-a16z.md`
-- `strategy/product-strategy-choices-herbig.md`
-- `strategy/product-strategy-foundations-herbig.md`
-- `alignment/quarterly-product-strategy-meeting-biddle.md`
-- `alignment/data-informed-product-cycle-cutler.md`
-- `alignment/translate-business-impact-to-roadmap-arora.md`
-- `alignment/six-steps-production-process.md`
-- `alignment/product-alignment-document-template.md`
-- `alignment/product-management-is-business-management.md`
-- `roadmap/the-basics-john-cutler.md`
-- `roadmap/three-feature-buckets-adam-nash.md`
-- `discovery/measure-pmf-first-round.md`
+- `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
+- `strategy/four-fits-growth-framework-balfour.md` - Brian Balfour's Four Fits Framework
+- `strategy/four-types-product-work-reforge.md` - Casey Winters' Four Types of Product Work
+- `strategy/product-market-fit-hustle-badger.md` - Ed Biden's PMF Dimensions
+- `strategy/be-great-product-leader-adam-nash.md` - Adam Nash's Product Leadership
+- `strategy/product-bundling-a16z.md` - a16z's Product Bundling
+- `strategy/product-strategy-choices-herbig.md` - Tim Herbig's Strategy Choices
+- `strategy/product-strategy-foundations-herbig.md` - Tim Herbig's Strategy Foundations
+- `alignment/quarterly-product-strategy-meeting-biddle.md` - Gibson Biddle's Quarterly Strategy Meeting
+- `alignment/data-informed-product-cycle-cutler.md` - John Cutler's Data-Informed Cycle
+- `alignment/translate-business-impact-to-roadmap-arora.md` - Sid Arora's Impact-to-Roadmap Framework
+- `alignment/six-steps-production-process.md` - Hustle Badger's Six Steps Production Process
+- `alignment/product-alignment-document-template.md` - Product Alignment Document Template
+- `alignment/product-management-is-business-management.md` - Saeed Khan's PM as Business Management
+- `roadmap/the-basics-john-cutler.md` - John Cutler's The Basics
+- `roadmap/three-feature-buckets-adam-nash.md` - Adam Nash's Three Feature Buckets
+- `discovery/measure-pmf-first-round.md` - First Round's PMF Measurement
 
 ---
 
 ## Discovery
 
 ### Core
-- `discovery/opportunity-solution-trees-teresa-torres.md`
-- `discovery/story-based-interviews-teresa-torres.md`
-- `discovery/continuous-interviewing-teresa-torres.md`
-- `discovery/explore-vs-exploit-ant-murphy.md`
+- `discovery/opportunity-solution-trees-teresa-torres.md` - Teresa Torres' Opportunity Solution Trees
+- `discovery/story-based-interviews-teresa-torres.md` - Teresa Torres' Story-Based Interviews
+- `discovery/continuous-interviewing-teresa-torres.md` - Teresa Torres' Continuous Interviewing
+- `discovery/explore-vs-exploit-ant-murphy.md` - Ant Murphy's Explore vs Exploit
 
 ### Additional
-- `discovery/20-lessons-pmf-first-round.md`
-- `discovery/measure-pmf-first-round.md`
-- `discovery/product-discovery-herbig.md`
-- `discovery/how-much-discovery-is-enough.md`
-- `discovery/prioritizing-opportunities-teresa-torres.md`
-- `discovery/interview-snapshot-teresa-torres.md`
-- `discovery/no-time-for-discovery-teresa-torres.md`
-- `discovery/opportunities-backlog-workflow.md`
-- `strategy/product-market-fit-hustle-badger.md`
-- `strategy/price-before-product-first-round.md`
-- `strategy/decisive-strategy-say-no.md`
-- `strategy/four-fits-growth-framework-balfour.md`
-- `alignment/product-operating-model-teresa-torres.md`
-- `alignment/six-steps-production-process.md`
-- `alignment/product-alignment-document-template.md`
-- `alignment/how-to-use-product-alignment-doc.md`
-- `alignment/great-one-pagers-john-cutler.md`
-- `alignment/data-informed-product-cycle-cutler.md`
-- `prioritization/high-velocity-decision-making.md`
-- `prioritization/veuc-prioritization-framework.md`
-- `prioritization/prioritization-strategy.md`
-- `roadmap/messy-middle-first-round.md`
-- `roadmap/the-basics-john-cutler.md`
+- `discovery/20-lessons-pmf-first-round.md` - First Round's 20 PMF Lessons
+- `discovery/measure-pmf-first-round.md` - First Round's PMF Measurement
+- `discovery/product-discovery-herbig.md` - Tim Herbig's Product Discovery
+- `discovery/how-much-discovery-is-enough.md` - Ed Biden's Discovery Confidence Scale
+- `discovery/prioritizing-opportunities-teresa-torres.md` - Teresa Torres' Opportunity Prioritization
+- `discovery/interview-snapshot-teresa-torres.md` - Teresa Torres' Interview Snapshot
+- `discovery/no-time-for-discovery-teresa-torres.md` - Teresa Torres' Minimum Viable Discovery
+- `discovery/opportunities-backlog-workflow.md` - Opportunities Backlog Workflow
+- `strategy/product-market-fit-hustle-badger.md` - Ed Biden's PMF Dimensions
+- `strategy/price-before-product-first-round.md` - First Round's Pricing Strategy
+- `strategy/decisive-strategy-say-no.md` - Ravi Mehta's Decisive Strategy
+- `strategy/four-fits-growth-framework-balfour.md` - Brian Balfour's Four Fits Framework
+- `alignment/product-operating-model-teresa-torres.md` - Teresa Torres' Product Operating Model
+- `alignment/six-steps-production-process.md` - Hustle Badger's Six Steps Production Process
+- `alignment/product-alignment-document-template.md` - Product Alignment Document Template
+- `alignment/how-to-use-product-alignment-doc.md` - Product Alignment Doc Guide
+- `alignment/great-one-pagers-john-cutler.md` - John Cutler's Great One-Pagers
+- `alignment/data-informed-product-cycle-cutler.md` - John Cutler's Data-Informed Cycle
+- `prioritization/high-velocity-decision-making.md` - Ed Biden's High-Velocity Decisions
+- `prioritization/veuc-prioritization-framework.md` - Ant Murphy's VEUC Framework
+- `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
+- `roadmap/messy-middle-first-round.md` - Scott Belsky's Messy Middle
+- `roadmap/the-basics-john-cutler.md` - John Cutler's The Basics
 
 ---
 
 ## Roadmap
 
 ### Core
-- `roadmap/product-roadmap-templates.md`
-- `roadmap/strategic-roadmap-saeed-khan.md`
-- `roadmap/roadmap-dates-roman-pichler.md`
+- `roadmap/product-roadmap-templates.md` - Ed Biden's Roadmap Templates
+- `roadmap/strategic-roadmap-saeed-khan.md` - Saeed Khan's Strategic Roadmap
+- `roadmap/roadmap-dates-roman-pichler.md` - Roman Pichler's Now-Next-Later Framework
 
 ### Additional
-- `roadmap/messy-middle-first-round.md`
-- `roadmap/the-basics-john-cutler.md`
-- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md`
-- `roadmap/three-feature-buckets-adam-nash.md`
-- `roadmap/features-to-outcome-roadmap-ant-murphy.md`
-- `strategy/product-strategy-gibson-biddle.md`
-- `strategy/decisive-strategy-say-no.md`
-- `strategy/when-not-to-use-roadmap-roman-pichler.md`
-- `strategy/four-types-product-work-reforge.md`
-- `strategy/be-great-product-leader-adam-nash.md`
-- `strategy/going-multi-product-first-round.md`
-- `strategy/product-strategy-choices-herbig.md`
-- `strategy/product-strategy-foundations-herbig.md`
-- `metrics/okrs-product-management-herbig.md`
-- `metrics/impact-model-roadmap-ed-biden.md`
-- `alignment/project-management-for-pms.md`
-- `alignment/data-informed-product-cycle-cutler.md`
-- `alignment/translate-business-impact-to-roadmap-arora.md`
-- `alignment/six-steps-production-process.md`
-- `alignment/product-alignment-document-template.md`
-- `alignment/how-to-use-product-alignment-doc.md`
-- `alignment/great-one-pagers-john-cutler.md`
-- `discovery/opportunity-solution-trees-teresa-torres.md`
-- `discovery/product-discovery-herbig.md`
-- `discovery/how-much-discovery-is-enough.md`
-- `discovery/prioritizing-opportunities-teresa-torres.md`
-- `discovery/opportunities-backlog-workflow.md`
-- `prioritization/high-velocity-decision-making.md`
-- `prioritization/can-do-vs-should-do-cutler.md`
-- `prioritization/veuc-prioritization-framework.md`
-- `prioritization/prioritization-strategy.md`
+- `roadmap/messy-middle-first-round.md` - Scott Belsky's Messy Middle
+- `roadmap/the-basics-john-cutler.md` - John Cutler's The Basics
+- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md` - Lenny Rachitsky's Strategic Pyramid
+- `roadmap/three-feature-buckets-adam-nash.md` - Adam Nash's Three Feature Buckets
+- `roadmap/features-to-outcome-roadmap-ant-murphy.md` - Ant Murphy's Features to Outcomes
+- `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
+- `strategy/decisive-strategy-say-no.md` - Ravi Mehta's Decisive Strategy
+- `strategy/when-not-to-use-roadmap-roman-pichler.md` - Roman Pichler's Roadmap Anti-Patterns
+- `strategy/four-types-product-work-reforge.md` - Casey Winters' Four Types of Product Work
+- `strategy/be-great-product-leader-adam-nash.md` - Adam Nash's Product Leadership
+- `strategy/going-multi-product-first-round.md` - First Round's Multi-Product Tactics
+- `strategy/product-strategy-choices-herbig.md` - Tim Herbig's Strategy Choices
+- `strategy/product-strategy-foundations-herbig.md` - Tim Herbig's Strategy Foundations
+- `metrics/okrs-product-management-herbig.md` - Tim Herbig's OKRs for Product Management
+- `metrics/impact-model-roadmap-ed-biden.md` - Ed Biden's Impact Model
+- `alignment/project-management-for-pms.md` - Evie Brockwell's Project Management for PMs
+- `alignment/data-informed-product-cycle-cutler.md` - John Cutler's Data-Informed Cycle
+- `alignment/translate-business-impact-to-roadmap-arora.md` - Sid Arora's Impact-to-Roadmap Framework
+- `alignment/six-steps-production-process.md` - Hustle Badger's Six Steps Production Process
+- `alignment/product-alignment-document-template.md` - Product Alignment Document Template
+- `alignment/how-to-use-product-alignment-doc.md` - Product Alignment Doc Guide
+- `alignment/great-one-pagers-john-cutler.md` - John Cutler's Great One-Pagers
+- `discovery/opportunity-solution-trees-teresa-torres.md` - Teresa Torres' Opportunity Solution Trees
+- `discovery/product-discovery-herbig.md` - Tim Herbig's Product Discovery
+- `discovery/how-much-discovery-is-enough.md` - Ed Biden's Discovery Confidence Scale
+- `discovery/prioritizing-opportunities-teresa-torres.md` - Teresa Torres' Opportunity Prioritization
+- `discovery/opportunities-backlog-workflow.md` - Opportunities Backlog Workflow
+- `prioritization/high-velocity-decision-making.md` - Ed Biden's High-Velocity Decisions
+- `prioritization/can-do-vs-should-do-cutler.md` - John Cutler's Can Do vs Should Do
+- `prioritization/veuc-prioritization-framework.md` - Ant Murphy's VEUC Framework
+- `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
 
 ---
 
 ## Stakeholder
 
 ### Core
-- `alignment/product-operating-model-teresa-torres.md`
-- `alignment/product-alignment-document-template.md`
-- `alignment/os-discovery-playbook-cutler.md`
+- `alignment/product-operating-model-teresa-torres.md` - Teresa Torres' Product Operating Model
+- `alignment/product-alignment-document-template.md` - Product Alignment Document Template
+- `alignment/os-discovery-playbook-cutler.md` - John Cutler's OS Discovery Playbook
 
 ### Additional
-- `alignment/product-team-stages-first-round.md`
-- `alignment/project-management-for-pms.md`
-- `alignment/quarterly-product-strategy-meeting-biddle.md`
-- `alignment/how-to-use-product-alignment-doc.md`
-- `alignment/great-one-pagers-john-cutler.md`
-- `roadmap/product-roadmap-templates.md`
-- `roadmap/roadmap-dates-roman-pichler.md`
-- `prioritization/high-velocity-decision-making.md`
-- `prioritization/can-do-vs-should-do-cutler.md`
-- `prioritization/veuc-prioritization-framework.md`
-- `prioritization/prioritization-strategy.md`
-- `prioritization/rice-framework-critique.md`
-- `discovery/no-time-for-discovery-teresa-torres.md`
-- `vision/crafting-compelling-product-vision-atawodi.md`
-- `strategy/product-strategy-one-pager-template.md`
+- `alignment/product-team-stages-first-round.md` - First Round's Product Team Stages
+- `alignment/project-management-for-pms.md` - Evie Brockwell's Project Management for PMs
+- `alignment/quarterly-product-strategy-meeting-biddle.md` - Gibson Biddle's Quarterly Strategy Meeting
+- `alignment/how-to-use-product-alignment-doc.md` - Product Alignment Doc Guide
+- `alignment/great-one-pagers-john-cutler.md` - John Cutler's Great One-Pagers
+- `roadmap/product-roadmap-templates.md` - Ed Biden's Roadmap Templates
+- `roadmap/roadmap-dates-roman-pichler.md` - Roman Pichler's Now-Next-Later Framework
+- `prioritization/high-velocity-decision-making.md` - Ed Biden's High-Velocity Decisions
+- `prioritization/can-do-vs-should-do-cutler.md` - John Cutler's Can Do vs Should Do
+- `prioritization/veuc-prioritization-framework.md` - Ant Murphy's VEUC Framework
+- `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
+- `prioritization/rice-framework-critique.md` - RICE Framework Critique
+- `discovery/no-time-for-discovery-teresa-torres.md` - Teresa Torres' Minimum Viable Discovery
+- `vision/crafting-compelling-product-vision-atawodi.md` - Ebi Atawodi's Vision Storytelling
+- `strategy/product-strategy-one-pager-template.md` - Strategy One-Pager Template
 
 ---
 
 ## prioritization
 
 ### Core
-- `prioritization/veuc-prioritization-framework.md`
-- `prioritization/prioritization-strategy.md`
-- `strategy/product-strategy-gibson-biddle.md`
-- `strategy/four-types-product-work-reforge.md`
+- `prioritization/layered-prioritization.md` - Ant Murphy's Layered Prioritization
+- `prioritization/confidence-not-value.md` - Ant Murphy's Confidence Over Value
+- `prioritization/veuc-prioritization-framework.md` - Ant Murphy's VEUC Framework
+- `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
+- `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
+- `strategy/four-types-product-work-reforge.md` - Casey Winters' Four Types of Product Work
 
 ### Additional
-- `prioritization/high-velocity-decision-making.md`
-- `prioritization/can-do-vs-should-do-cutler.md`
-- `prioritization/rice-framework-critique.md`
-- `strategy/decisive-strategy-say-no.md`
-- `strategy/be-great-product-leader-adam-nash.md`
-- `strategy/going-multi-product-first-round.md`
-- `strategy/product-strategy-choices-herbig.md`
-- `metrics/impact-model-roadmap-ed-biden.md`
-- `roadmap/messy-middle-first-round.md`
-- `roadmap/product-roadmap-templates.md`
-- `roadmap/three-feature-buckets-adam-nash.md`
-- `roadmap/features-to-outcome-roadmap-ant-murphy.md`
-- `alignment/product-team-stages-first-round.md`
-- `discovery/opportunity-solution-trees-teresa-torres.md`
-- `discovery/product-discovery-herbig.md`
-- `discovery/how-much-discovery-is-enough.md`
-- `discovery/prioritizing-opportunities-teresa-torres.md`
-- `discovery/opportunities-backlog-workflow.md`
+- `prioritization/high-velocity-decision-making.md` - Ed Biden's High-Velocity Decisions
+- `prioritization/can-do-vs-should-do-cutler.md` - John Cutler's Can Do vs Should Do
+- `prioritization/rice-framework-critique.md` - RICE Framework Critique
+- `strategy/decisive-strategy-say-no.md` - Ravi Mehta's Decisive Strategy
+- `strategy/be-great-product-leader-adam-nash.md` - Adam Nash's Product Leadership
+- `strategy/going-multi-product-first-round.md` - First Round's Multi-Product Tactics
+- `strategy/product-strategy-choices-herbig.md` - Tim Herbig's Strategy Choices
+- `metrics/impact-model-roadmap-ed-biden.md` - Ed Biden's Impact Model
+- `roadmap/messy-middle-first-round.md` - Scott Belsky's Messy Middle
+- `roadmap/product-roadmap-templates.md` - Ed Biden's Roadmap Templates
+- `roadmap/three-feature-buckets-adam-nash.md` - Adam Nash's Three Feature Buckets
+- `roadmap/features-to-outcome-roadmap-ant-murphy.md` - Ant Murphy's Features to Outcomes
+- `alignment/product-team-stages-first-round.md` - First Round's Product Team Stages
+- `discovery/opportunity-solution-trees-teresa-torres.md` - Teresa Torres' Opportunity Solution Trees
+- `discovery/product-discovery-herbig.md` - Tim Herbig's Product Discovery
+- `discovery/how-much-discovery-is-enough.md` - Ed Biden's Discovery Confidence Scale
+- `discovery/prioritizing-opportunities-teresa-torres.md` - Teresa Torres' Opportunity Prioritization
+- `discovery/opportunities-backlog-workflow.md` - Opportunities Backlog Workflow
 
 ---
 
@@ -228,195 +230,195 @@ Skill-based index. Go to your skill section, read Core first, then Additional as
 ## positioning
 
 ### Core
-- `strategy/product-positioning-april-dunford.md`
+- `strategy/product-positioning-april-dunford.md` - April Dunford's Positioning Framework
 
 ### Additional
-- `vision/how-to-create-product-vision-khan.md`
-- `vision/crafting-compelling-product-vision-atawodi.md`
-- `strategy/product-strategy-one-pager-template.md`
-- `strategy/b2b-vs-b2c-product-strategy-herbig.md`
-- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md`
-- `discovery/20-lessons-pmf-first-round.md`
-- `prioritization/prioritization-strategy.md`
+- `vision/how-to-create-product-vision-khan.md` - Saeed Khan's Vision Stack
+- `vision/crafting-compelling-product-vision-atawodi.md` - Ebi Atawodi's Vision Storytelling
+- `strategy/product-strategy-one-pager-template.md` - Strategy One-Pager Template
+- `strategy/b2b-vs-b2c-product-strategy-herbig.md` - Tim Herbig's B2B vs B2C Strategy
+- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md` - Lenny Rachitsky's Strategic Pyramid
+- `discovery/20-lessons-pmf-first-round.md` - First Round's 20 PMF Lessons
+- `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
 
 ---
 
 ## opportunity-tree
 
 ### Core
-- `discovery/opportunity-solution-trees-teresa-torres.md`
+- `discovery/opportunity-solution-trees-teresa-torres.md` - Teresa Torres' Opportunity Solution Trees
 
 ### Additional
-- `discovery/prioritizing-opportunities-teresa-torres.md`
-- `discovery/product-discovery-herbig.md`
-- `discovery/opportunities-backlog-workflow.md`
-- `strategy/decisive-strategy-say-no.md`
-- `strategy/four-types-product-work-reforge.md`
-- `strategy/price-before-product-first-round.md`
-- `strategy/company-to-product-strategy-notes.md`
-- `roadmap/strategic-roadmap-saeed-khan.md`
-- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md`
-- `alignment/six-steps-production-process.md`
-- `alignment/how-to-use-product-alignment-doc.md`
-- `alignment/great-one-pagers-john-cutler.md`
-- `prioritization/high-velocity-decision-making.md`
-- `prioritization/can-do-vs-should-do-cutler.md`
-- `prioritization/prioritization-strategy.md`
+- `discovery/prioritizing-opportunities-teresa-torres.md` - Teresa Torres' Opportunity Prioritization
+- `discovery/product-discovery-herbig.md` - Tim Herbig's Product Discovery
+- `discovery/opportunities-backlog-workflow.md` - Opportunities Backlog Workflow
+- `strategy/decisive-strategy-say-no.md` - Ravi Mehta's Decisive Strategy
+- `strategy/four-types-product-work-reforge.md` - Casey Winters' Four Types of Product Work
+- `strategy/price-before-product-first-round.md` - First Round's Pricing Strategy
+- `strategy/company-to-product-strategy-notes.md` - Company to Product Strategy Flow
+- `roadmap/strategic-roadmap-saeed-khan.md` - Saeed Khan's Strategic Roadmap
+- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md` - Lenny Rachitsky's Strategic Pyramid
+- `alignment/six-steps-production-process.md` - Hustle Badger's Six Steps Production Process
+- `alignment/how-to-use-product-alignment-doc.md` - Product Alignment Doc Guide
+- `alignment/great-one-pagers-john-cutler.md` - John Cutler's Great One-Pagers
+- `prioritization/high-velocity-decision-making.md` - Ed Biden's High-Velocity Decisions
+- `prioritization/can-do-vs-should-do-cutler.md` - John Cutler's Can Do vs Should Do
+- `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
 
 ---
 
 ## interview-summary
 
 ### Core
-- `discovery/story-based-interviews-teresa-torres.md`
-- `discovery/continuous-interviewing-teresa-torres.md`
-- `discovery/interview-snapshot-teresa-torres.md`
+- `discovery/story-based-interviews-teresa-torres.md` - Teresa Torres' Story-Based Interviews
+- `discovery/continuous-interviewing-teresa-torres.md` - Teresa Torres' Continuous Interviewing
+- `discovery/interview-snapshot-teresa-torres.md` - Teresa Torres' Interview Snapshot
 
 ### Additional
-- `discovery/20-lessons-pmf-first-round.md`
-- `strategy/price-before-product-first-round.md`
-- `strategy/company-to-product-strategy-notes.md`
-- `alignment/product-operating-model-teresa-torres.md`
+- `discovery/20-lessons-pmf-first-round.md` - First Round's 20 PMF Lessons
+- `strategy/price-before-product-first-round.md` - First Round's Pricing Strategy
+- `strategy/company-to-product-strategy-notes.md` - Company to Product Strategy Flow
+- `alignment/product-operating-model-teresa-torres.md` - Teresa Torres' Product Operating Model
 
 ---
 
 ## okr-builder
 
 ### Core
-- `metrics/okrs-product-management-herbig.md`
-- `metrics/escape-okr-theatre-ant-murphy.md`
+- `metrics/okrs-product-management-herbig.md` - Tim Herbig's OKRs for Product Management
+- `metrics/escape-okr-theatre-ant-murphy.md` - Ant Murphy's Escape OKR Theatre
 
 ### Additional
-- `metrics/impact-model-roadmap-ed-biden.md`
-- `strategy/product-strategy-gibson-biddle.md`
-- `strategy/decisive-strategy-say-no.md`
-- `strategy/when-not-to-use-roadmap-roman-pichler.md`
-- `strategy/be-great-product-leader-adam-nash.md`
-- `strategy/product-strategy-patterns-herbig.md`
-- `strategy/product-strategy-choices-herbig.md`
-- `strategy/product-strategy-foundations-herbig.md`
-- `roadmap/the-basics-john-cutler.md`
-- `roadmap/strategic-roadmap-saeed-khan.md`
-- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md`
-- `roadmap/features-to-outcome-roadmap-ant-murphy.md`
-- `alignment/product-team-stages-first-round.md`
-- `alignment/project-management-for-pms.md`
-- `alignment/quarterly-product-strategy-meeting-biddle.md`
-- `alignment/translate-business-impact-to-roadmap-arora.md`
-- `alignment/six-steps-production-process.md`
-- `alignment/product-operating-model-teresa-torres.md`
-- `alignment/how-to-use-product-alignment-doc.md`
-- `alignment/product-management-is-business-management.md`
-- `discovery/product-discovery-herbig.md`
-- `prioritization/high-velocity-decision-making.md`
+- `metrics/impact-model-roadmap-ed-biden.md` - Ed Biden's Impact Model
+- `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
+- `strategy/decisive-strategy-say-no.md` - Ravi Mehta's Decisive Strategy
+- `strategy/when-not-to-use-roadmap-roman-pichler.md` - Roman Pichler's Roadmap Anti-Patterns
+- `strategy/be-great-product-leader-adam-nash.md` - Adam Nash's Product Leadership
+- `strategy/product-strategy-patterns-herbig.md` - Tim Herbig's Strategy Patterns
+- `strategy/product-strategy-choices-herbig.md` - Tim Herbig's Strategy Choices
+- `strategy/product-strategy-foundations-herbig.md` - Tim Herbig's Strategy Foundations
+- `roadmap/the-basics-john-cutler.md` - John Cutler's The Basics
+- `roadmap/strategic-roadmap-saeed-khan.md` - Saeed Khan's Strategic Roadmap
+- `roadmap/mission-vision-strategy-goals-roadmap-lenny.md` - Lenny Rachitsky's Strategic Pyramid
+- `roadmap/features-to-outcome-roadmap-ant-murphy.md` - Ant Murphy's Features to Outcomes
+- `alignment/product-team-stages-first-round.md` - First Round's Product Team Stages
+- `alignment/project-management-for-pms.md` - Evie Brockwell's Project Management for PMs
+- `alignment/quarterly-product-strategy-meeting-biddle.md` - Gibson Biddle's Quarterly Strategy Meeting
+- `alignment/translate-business-impact-to-roadmap-arora.md` - Sid Arora's Impact-to-Roadmap Framework
+- `alignment/six-steps-production-process.md` - Hustle Badger's Six Steps Production Process
+- `alignment/product-operating-model-teresa-torres.md` - Teresa Torres' Product Operating Model
+- `alignment/how-to-use-product-alignment-doc.md` - Product Alignment Doc Guide
+- `alignment/product-management-is-business-management.md` - Saeed Khan's PM as Business Management
+- `discovery/product-discovery-herbig.md` - Tim Herbig's Product Discovery
+- `prioritization/high-velocity-decision-making.md` - Ed Biden's High-Velocity Decisions
 
 ---
 
 ## metric-selector
 
 ### Core
-- `metrics/choosing-success-metrics-hustle-badger.md`
+- `metrics/choosing-success-metrics-hustle-badger.md` - Ed Biden's Success Metrics Framework
 
 ### Additional
-- `metrics/okrs-product-management-herbig.md`
-- `metrics/escape-okr-theatre-ant-murphy.md`
-- `metrics/revenue-retention-metrics-hustle-badger.md`
-- `metrics/leading-product-metrics-hustle-badger.md`
-- `strategy/product-strategy-gibson-biddle.md`
-- `strategy/four-fits-growth-framework-balfour.md`
-- `strategy/product-market-fit-hustle-badger.md`
-- `strategy/be-great-product-leader-adam-nash.md`
-- `strategy/product-bundling-a16z.md`
-- `strategy/product-strategy-foundations-herbig.md`
-- `roadmap/the-basics-john-cutler.md`
-- `alignment/data-informed-product-cycle-cutler.md`
-- `discovery/measure-pmf-first-round.md`
+- `metrics/okrs-product-management-herbig.md` - Tim Herbig's OKRs for Product Management
+- `metrics/escape-okr-theatre-ant-murphy.md` - Ant Murphy's Escape OKR Theatre
+- `metrics/revenue-retention-metrics-hustle-badger.md` - Susannah Belcher's Revenue & Retention Metrics
+- `metrics/leading-product-metrics-hustle-badger.md` - Susannah Belcher's Leading Metrics
+- `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
+- `strategy/four-fits-growth-framework-balfour.md` - Brian Balfour's Four Fits Framework
+- `strategy/product-market-fit-hustle-badger.md` - Ed Biden's PMF Dimensions
+- `strategy/be-great-product-leader-adam-nash.md` - Adam Nash's Product Leadership
+- `strategy/product-bundling-a16z.md` - a16z's Product Bundling
+- `strategy/product-strategy-foundations-herbig.md` - Tim Herbig's Strategy Foundations
+- `roadmap/the-basics-john-cutler.md` - John Cutler's The Basics
+- `alignment/data-informed-product-cycle-cutler.md` - John Cutler's Data-Informed Cycle
+- `discovery/measure-pmf-first-round.md` - First Round's PMF Measurement
 
 ---
 
 ## impact-model-builder
 
 ### Core
-- `metrics/impact-model-roadmap-ed-biden.md`
+- `metrics/impact-model-roadmap-ed-biden.md` - Ed Biden's Impact Model
 
 ### Additional
-- `strategy/product-strategy-gibson-biddle.md`
-- `strategy/four-fits-growth-framework-balfour.md`
-- `strategy/product-bundling-a16z.md`
-- `alignment/quarterly-product-strategy-meeting-biddle.md`
-- `alignment/data-informed-product-cycle-cutler.md`
-- `alignment/translate-business-impact-to-roadmap-arora.md`
-- `alignment/product-alignment-document-template.md`
-- `alignment/great-one-pagers-john-cutler.md`
-- `alignment/product-management-is-business-management.md`
-- `discovery/opportunity-solution-trees-teresa-torres.md`
-- `discovery/product-discovery-herbig.md`
-- `discovery/how-much-discovery-is-enough.md`
-- `prioritization/prioritization-strategy.md`
+- `strategy/product-strategy-gibson-biddle.md` - Gibson Biddle's DHM Model & GLEe Framework
+- `strategy/four-fits-growth-framework-balfour.md` - Brian Balfour's Four Fits Framework
+- `strategy/product-bundling-a16z.md` - a16z's Product Bundling
+- `alignment/quarterly-product-strategy-meeting-biddle.md` - Gibson Biddle's Quarterly Strategy Meeting
+- `alignment/data-informed-product-cycle-cutler.md` - John Cutler's Data-Informed Cycle
+- `alignment/translate-business-impact-to-roadmap-arora.md` - Sid Arora's Impact-to-Roadmap Framework
+- `alignment/product-alignment-document-template.md` - Product Alignment Document Template
+- `alignment/great-one-pagers-john-cutler.md` - John Cutler's Great One-Pagers
+- `alignment/product-management-is-business-management.md` - Saeed Khan's PM as Business Management
+- `discovery/opportunity-solution-trees-teresa-torres.md` - Teresa Torres' Opportunity Solution Trees
+- `discovery/product-discovery-herbig.md` - Tim Herbig's Product Discovery
+- `discovery/how-much-discovery-is-enough.md` - Ed Biden's Discovery Confidence Scale
+- `prioritization/prioritization-strategy.md` - Prioritization Strategy Guide
 
 ---
 
 ## leading-lagging-mapper
 
 ### Core
-- `metrics/revenue-retention-metrics-hustle-badger.md`
-- `metrics/leading-product-metrics-hustle-badger.md`
+- `metrics/revenue-retention-metrics-hustle-badger.md` - Susannah Belcher's Revenue & Retention Metrics
+- `metrics/leading-product-metrics-hustle-badger.md` - Susannah Belcher's Leading Metrics
 
 ### Additional
-- `metrics/okrs-product-management-herbig.md`
-- `metrics/choosing-success-metrics-hustle-badger.md`
-- `strategy/product-market-fit-hustle-badger.md`
-- `strategy/product-strategy-foundations-herbig.md`
-- `roadmap/the-basics-john-cutler.md`
-- `alignment/data-informed-product-cycle-cutler.md`
-- `alignment/translate-business-impact-to-roadmap-arora.md`
-- `alignment/product-management-is-business-management.md`
-- `discovery/measure-pmf-first-round.md`
+- `metrics/okrs-product-management-herbig.md` - Tim Herbig's OKRs for Product Management
+- `metrics/choosing-success-metrics-hustle-badger.md` - Ed Biden's Success Metrics Framework
+- `strategy/product-market-fit-hustle-badger.md` - Ed Biden's PMF Dimensions
+- `strategy/product-strategy-foundations-herbig.md` - Tim Herbig's Strategy Foundations
+- `roadmap/the-basics-john-cutler.md` - John Cutler's The Basics
+- `alignment/data-informed-product-cycle-cutler.md` - John Cutler's Data-Informed Cycle
+- `alignment/translate-business-impact-to-roadmap-arora.md` - Sid Arora's Impact-to-Roadmap Framework
+- `alignment/product-management-is-business-management.md` - Saeed Khan's PM as Business Management
+- `discovery/measure-pmf-first-round.md` - First Round's PMF Measurement
 
 ---
 
 ## aarrr-analyzer
 
 ### Additional
-- `metrics/choosing-success-metrics-hustle-badger.md`
-- `metrics/revenue-retention-metrics-hustle-badger.md`
-- `metrics/leading-product-metrics-hustle-badger.md`
-- `strategy/four-fits-growth-framework-balfour.md`
-- `strategy/four-types-product-work-reforge.md`
-- `strategy/product-market-fit-hustle-badger.md`
-- `alignment/data-informed-product-cycle-cutler.md`
+- `metrics/choosing-success-metrics-hustle-badger.md` - Ed Biden's Success Metrics Framework
+- `metrics/revenue-retention-metrics-hustle-badger.md` - Susannah Belcher's Revenue & Retention Metrics
+- `metrics/leading-product-metrics-hustle-badger.md` - Susannah Belcher's Leading Metrics
+- `strategy/four-fits-growth-framework-balfour.md` - Brian Balfour's Four Fits Framework
+- `strategy/four-types-product-work-reforge.md` - Casey Winters' Four Types of Product Work
+- `strategy/product-market-fit-hustle-badger.md` - Ed Biden's PMF Dimensions
+- `alignment/data-informed-product-cycle-cutler.md` - John Cutler's Data-Informed Cycle
 
 ---
 
 ## initiative-alignment-doc
 
 ### Core
-- `alignment/product-alignment-document-template.md`
+- `alignment/product-alignment-document-template.md` - Product Alignment Document Template
 
 ### Additional
-- `alignment/how-to-use-product-alignment-doc.md`
-- `alignment/project-management-for-pms.md`
-- `alignment/quarterly-product-strategy-meeting-biddle.md`
-- `alignment/translate-business-impact-to-roadmap-arora.md`
-- `alignment/six-steps-production-process.md`
-- `alignment/great-one-pagers-john-cutler.md`
-- `alignment/os-discovery-playbook-cutler.md`
-- `vision/how-to-create-product-vision-khan.md`
-- `vision/crafting-compelling-product-vision-atawodi.md`
-- `strategy/when-not-to-use-roadmap-roman-pichler.md`
-- `strategy/going-multi-product-first-round.md`
-- `strategy/product-positioning-april-dunford.md`
-- `strategy/product-strategy-one-pager-template.md`
-- `strategy/b2b-vs-b2c-product-strategy-herbig.md`
-- `strategy/product-strategy-patterns-herbig.md`
-- `strategy/product-strategy-choices-herbig.md`
-- `roadmap/product-roadmap-templates.md`
-- `roadmap/roadmap-dates-roman-pichler.md`
-- `roadmap/three-feature-buckets-adam-nash.md`
-- `roadmap/features-to-outcome-roadmap-ant-murphy.md`
-- `prioritization/veuc-prioritization-framework.md`
-- `prioritization/can-do-vs-should-do-cutler.md`
-- `prioritization/rice-framework-critique.md`
+- `alignment/how-to-use-product-alignment-doc.md` - Product Alignment Doc Guide
+- `alignment/project-management-for-pms.md` - Evie Brockwell's Project Management for PMs
+- `alignment/quarterly-product-strategy-meeting-biddle.md` - Gibson Biddle's Quarterly Strategy Meeting
+- `alignment/translate-business-impact-to-roadmap-arora.md` - Sid Arora's Impact-to-Roadmap Framework
+- `alignment/six-steps-production-process.md` - Hustle Badger's Six Steps Production Process
+- `alignment/great-one-pagers-john-cutler.md` - John Cutler's Great One-Pagers
+- `alignment/os-discovery-playbook-cutler.md` - John Cutler's OS Discovery Playbook
+- `vision/how-to-create-product-vision-khan.md` - Saeed Khan's Vision Stack
+- `vision/crafting-compelling-product-vision-atawodi.md` - Ebi Atawodi's Vision Storytelling
+- `strategy/when-not-to-use-roadmap-roman-pichler.md` - Roman Pichler's Roadmap Anti-Patterns
+- `strategy/going-multi-product-first-round.md` - First Round's Multi-Product Tactics
+- `strategy/product-positioning-april-dunford.md` - April Dunford's Positioning Framework
+- `strategy/product-strategy-one-pager-template.md` - Strategy One-Pager Template
+- `strategy/b2b-vs-b2c-product-strategy-herbig.md` - Tim Herbig's B2B vs B2C Strategy
+- `strategy/product-strategy-patterns-herbig.md` - Tim Herbig's Strategy Patterns
+- `strategy/product-strategy-choices-herbig.md` - Tim Herbig's Strategy Choices
+- `roadmap/product-roadmap-templates.md` - Ed Biden's Roadmap Templates
+- `roadmap/roadmap-dates-roman-pichler.md` - Roman Pichler's Now-Next-Later Framework
+- `roadmap/three-feature-buckets-adam-nash.md` - Adam Nash's Three Feature Buckets
+- `roadmap/features-to-outcome-roadmap-ant-murphy.md` - Ant Murphy's Features to Outcomes
+- `prioritization/veuc-prioritization-framework.md` - Ant Murphy's VEUC Framework
+- `prioritization/can-do-vs-should-do-cutler.md` - John Cutler's Can Do vs Should Do
+- `prioritization/rice-framework-critique.md` - RICE Framework Critique
 
 ---
 
@@ -499,6 +501,8 @@ Full article details for browsing and searching. File paths are relative to `kno
 
 | Article | File | Key Concepts | Author |
 |---------|------|--------------|--------|
+| [Layered Prioritization](https://www.linkedin.com/posts/ant-murphy_one-of-the-worst-advice-i-got-early-in-my-share-7415636037479211008) | `prioritization/layered-prioritization.md` | Value is Contextual, Prioritization Layers, Strategy-First | Ant Murphy |
+| [Confidence Not Value](https://www.antmurphy.me/newsletter/20/06/08/prioritization-is-about-confidence-not-value) | `prioritization/confidence-not-value.md` | Confidence Over Value, Discovery as Confidence-Building | Ant Murphy |
 | [VEUC Framework](https://www.antmurphy.me/newsletter/is-urgency-the-missing-ingredient-in-prioritisation) | `prioritization/veuc-prioritization-framework.md` | Value/Effort/Urgency/Confidence, Time-Sensitivity | Ant Murphy |
 | [High Velocity Decisions](https://www.hustlebadger.com/what-do-product-teams-do/high-velocity-decision-making/) | `prioritization/high-velocity-decision-making.md` | Type 1 vs Type 2 Decisions, 80/20 Information Gathering | Ed Biden |
 | [Can Do vs Should Do](https://cutlefish.substack.com/p/tbm-1652-can-do-vs-should-do) | `prioritization/can-do-vs-should-do-cutler.md` | 9-Box Matrix, Organizational vs Technical Difficulty | John Cutler |

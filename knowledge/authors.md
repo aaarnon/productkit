@@ -2,9 +2,13 @@
 
 ProductKit draws on frameworks from these product thought leaders. Support their work by exploring their original content.
 
+When building deliverables, use this directory to populate the Sources & Attribution table.
+
 ---
 
 ## Teresa Torres
+
+**Frameworks:** Opportunity Solution Trees, Story-Based Interviews, Continuous Interviewing, Interview Snapshot, Product Operating Model, Opportunity Prioritization, Minimum Viable Discovery
 
 **Known for:** Opportunity Solution Trees, continuous discovery, story-based interviews, product trios
 
@@ -20,6 +24,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 
 ## Gibson Biddle
 
+**Frameworks:** DHM Model, GLEe Framework, GEM Model, SMT Framework, Quarterly Strategy Meeting, 8 Moats
+
 **Known for:** DHM Model, GLEe framework, product strategy, Netflix case studies
 
 | | |
@@ -33,6 +39,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 
 ## John Cutler
 
+**Frameworks:** The Basics, Great One-Pagers, Data-Informed Cycle, Can Do vs Should Do, OS Discovery Playbook
+
 **Known for:** Product operating systems, one-pagers, cross-functional product development, systems thinking
 
 | | |
@@ -44,6 +52,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 ---
 
 ## Tim Herbig
+
+**Frameworks:** OKRs for Product Management, Product Discovery, Strategy Patterns, Strategy Choices, Strategy Foundations, B2B vs B2C Strategy
 
 **Known for:** Product strategy, OKRs, discovery patterns, connecting strategy to execution
 
@@ -59,7 +69,9 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 
 ## Ant Murphy
 
-**Known for:** Now-Next-Later roadmaps, VEUC prioritization, OKRs, explore/exploit balance
+**Frameworks:** Product Strategy Framework, Layered Prioritization, Confidence Over Value, VEUC Framework, Escape OKR Theatre, Explore vs Exploit, Features to Outcomes
+
+**Known for:** Layered prioritization, confidence-based prioritization, Now-Next-Later roadmaps, VEUC framework, OKRs, explore/exploit balance
 
 | | |
 |---|---|
@@ -71,6 +83,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 ---
 
 ## Roman Pichler
+
+**Frameworks:** Now-Next-Later Framework, Roadmap Anti-Patterns
 
 **Known for:** Agile product management, product vision board, roadmap practices
 
@@ -86,6 +100,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 
 ## April Dunford
 
+**Frameworks:** Positioning Framework (5-Step)
+
 **Known for:** Product positioning, sales narratives, B2B tech marketing
 
 | | |
@@ -100,6 +116,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 
 ## Lenny Rachitsky
 
+**Frameworks:** Strategic Pyramid (Mission to Roadmap)
+
 **Known for:** Product growth, career advice, PM best practices, industry benchmarks
 
 | | |
@@ -112,6 +130,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 ---
 
 ## Brian Balfour
+
+**Frameworks:** Four Fits Framework
 
 **Known for:** Four Fits framework, growth loops, product-market fit, scaling strategies
 
@@ -127,6 +147,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 
 ## Ed Biden
 
+**Frameworks:** Impact Model, PMF Dimensions, Success Metrics Framework, High-Velocity Decisions, Discovery Confidence Scale, Roadmap Templates, Red/Blue Phases
+
 **Known for:** Red/Blue phases, impact models, metrics, high-velocity decisions, PM templates
 
 | | |
@@ -138,6 +160,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 ---
 
 ## Saeed Khan
+
+**Frameworks:** Vision Stack, Strategic Roadmap, PM as Business Management
 
 **Known for:** Vision stacks, product as business management, B2B product management
 
@@ -152,6 +176,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 
 ## Adam Nash
 
+**Frameworks:** Three Feature Buckets (40/30/30), Product Leadership
+
 **Known for:** Feature buckets (40/30/30), product planning, prioritization
 
 | | |
@@ -164,6 +190,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 
 ## Ebi Atawodi
 
+**Frameworks:** Vision Storytelling (Once Upon a Time)
+
 **Known for:** Product vision crafting, vision storytelling, creator products
 
 | | |
@@ -174,6 +202,8 @@ ProductKit draws on frameworks from these product thought leaders. Support their
 ---
 
 ## Casey Winters
+
+**Frameworks:** Four Types of Product Work
 
 **Known for:** Growth strategy, retention, onboarding, scaling startups
 
