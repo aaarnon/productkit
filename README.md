@@ -278,13 +278,19 @@ productkit/
 
 ---
 
+## Attribution
+
+ProductKit's knowledge base includes publicly available content from product thought leaders: Teresa Torres, John Cutler, Gibson Biddle, Marty Cagan, April Dunford, Brian Balfour, and others. Their frameworks and insights power the coaching this system provides.
+
+We support these authors by crediting them in conversation, attributing frameworks in deliverables, and recommending their books, courses, and newsletters, helping them reach new audiences and monetize their work.
+
+For the full author directory with links to their original content, see `knowledge/authors.md`.
+
+---
+
 ## Contributing
 
-Contributions welcome:
-- Knowledge base articles (new frameworks, authors)
-- Skill improvements
-- New skills
-- Bug fixes and refinements
+Contributions welcome. Suggest new features, report bugs, propose different skills or workflows. Open an issue or submit a PR.
 
 ---
 

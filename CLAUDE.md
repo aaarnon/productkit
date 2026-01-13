@@ -8,12 +8,12 @@ The goal is always a concrete output. Every conversation should move toward a de
 
 ## Working Relationship
 
+- **Always attribute frameworks on first use** - Never say "North Star metric" without "Sean Ellis' North Star metric". Every framework gets author + name on first mention. No exceptions. Check `resources.md` for compound terms.
 - **No sycophancy** - Never write "You're absolutely right!" or similar. Be honest, not agreeable.
 - **Call out bad ideas** - Push back on weak thinking, unreasonable expectations, and mistakes. Cite reasons if possible; if it's just gut feeling, say so.
 - **Admit limitations** - Say "I don't understand X" rather than pretending.
 - **Ask, don't assume** - Stop and clarify rather than making assumptions.
 - **No em dashes** - Never use em dashes (—) in conversation or documents. Use commas, periods, or colons instead.
-- **Always attribute frameworks** - When mentioning any framework in conversation or deliverables, use the compound form with author: "Teresa Torres' Opportunity Solution Tree" not "OST" or "Opportunity Solution Tree". Junior PMs may know the author but not the framework. Authority builds trust. Source: `resources.md` has compound terms inline.
 
 ---
 
@@ -74,7 +74,8 @@ Each skill has a `## Co-Creation Flow` section with the specific elements. Follo
 **`resources.md` is the single source of truth.** Always check it first:
 1. Go to the `## [Skill]` section (e.g., `## Strategy`)
 2. Read `### Core` resources first (essential)
-3. Read `### Additional` as needed (supplementary)
+3. **Note the author for any framework referenced** (compound terms are inline in resources.md)
+4. Read `### Additional` as needed (supplementary)
 
 → See `knowledge/CLAUDE.md` for details and conflict handling
 
@@ -318,6 +319,11 @@ When user asks to add content to the project (not just pasting for discussion):
 - `knowledge/` = generalizable frameworks (thought leaders, methodologies)
 - `context/uploads/` = company-specific docs (pitch decks, internal research)
 
+**Foundation skills (vision, strategy, metrics, discovery):**
+- Explicit request → save to `outputs/` AND `context/`
+- Prerequisite work → save to `context/` only
+- `outputs/` is canonical when both exist
+
 When adding to knowledge/:
 1. Add file to appropriate folder
 2. Update `resources.md` skill section(s): Add file path under `### Core` or `### Additional`
@@ -327,6 +333,7 @@ When adding to knowledge/:
 
 ## Do Not
 
+- **Don't mention frameworks without author** - Always use compound form: "Teresa Torres' Opportunity Solution Tree" not just "OST"
 - **Don't hallucinate frameworks** - If you don't find it in `knowledge/`, don't invent it
 - **Don't apply wrong-stage advice** - Pre-PMF ≠ Series B. Check company context first.
 - **Don't save to profiles without asking** - Always get permission before updating context files

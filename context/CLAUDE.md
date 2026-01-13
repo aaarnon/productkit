@@ -149,9 +149,31 @@ With whatever context you have. If thin, flag it: "I don't have full context on 
 
 ---
 
-### Onboarding Checklist (Behavioral Eval)
+### Progress Display
 
-Show progress as you complete each step. Do not skip or improvise.
+Show onboarding progress only at step transitions, not every response.
+
+**Format:**
+```
+Onboarding:
+  [x] Role: Non-technical founder
+  [x] PM familiarity: Somewhat familiar
+  [ ] Company context  ← current
+  [ ] Ready for vision work
+```
+
+**Rules:**
+- Show after completing a step (with the step just marked `[x]`)
+- Don't show if just asking a follow-up within the same step
+- `← current` marker shows what's being worked on now
+- Keep descriptions short (captured value, not full explanation)
+- If a step is skipped, show why inline: `[—] Company context (skipped: user requested)`
+
+---
+
+### Onboarding Checklist (Internal Eval)
+
+This checklist is for behavioral evaluation, not user display. Use it to verify all steps are followed.
 
 **User Context:**
 - [ ] Asked for role
@@ -170,8 +192,6 @@ Show progress as you complete each step. Do not skip or improvise.
 
 **Completion:**
 - [ ] Answered user's original question (with context caveats if needed)
-
-If any step is skipped, show why: "Skipped [step] because [reason]"
 
 ---
 
