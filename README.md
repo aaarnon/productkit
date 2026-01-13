@@ -58,7 +58,7 @@ Other CLIs and IDEs can read these files via fallback config.
 
 **Cursor** - after cloning, run this prompt in Cursor:
 ```
-Add this line to .cursorrules:
+Create an AGENTS.md file in the project root with this content:
 
 Always read and follow productkit/CLAUDE.md before responding.
 ```
